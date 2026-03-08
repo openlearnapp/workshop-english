@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 9
 title: "Bewegung und Position - Sitzen, Stehen, Gehen"
 description: "Die Verben to sit, to stand und to walk/run mit Beispielen"
@@ -57,6 +57,13 @@ sections:
           - ["sitting", "sitzend", "to sit - Gerundium"]
           - ["by the window", "am Fenster", "Ort"]
 
+      - type: input
+        q: "Übersetze: Bitte setzen Sie sich."
+        a: ["Please sit down.", "Sit down, please."]
+        labels: ["Übersetzung", "Höflichkeit"]
+        rel:
+          - ["sit down", "sich setzen", "Phrasal Verb"]
+
   - title: "To stand"
     explanation: |
       **To stand** bedeutet **stehen**:
@@ -108,6 +115,15 @@ sections:
           - ["was standing", "stand", "Past Continuous"]
           - ["in the rain", "im Regen", "Ort - Wetter"]
           - ["rain", "Regen", "Substantiv - Wetter"]
+
+      - type: select
+        q: "Was bedeutet 'I can't stand the noise'?"
+        options:
+          - text: "Ich kann im Lärm nicht stehen"
+          - text: "Ich kann den Lärm nicht ertragen"
+            correct: true
+          - text: "Ich stehe neben dem Lärm"
+        labels: ["Bedeutung", "Ausdruck"]
 
   - title: "To walk / To run"
     explanation: |
@@ -175,3 +191,11 @@ sections:
           - ["runs", "leitet", "to run - leiten"]
           - ["small", "klein", "Adjektiv"]
           - ["business", "Unternehmen/Geschäft", "Substantiv"]
+
+      - type: input
+        q: "Übersetze: Sie leitet ein kleines Unternehmen."
+        a: "She runs a small business."
+        labels: ["Übersetzung", "Übertragene Bedeutung"]
+        rel:
+          - ["runs", "leitet", "to run - leiten"]
+          - ["business", "Unternehmen", "Substantiv"]

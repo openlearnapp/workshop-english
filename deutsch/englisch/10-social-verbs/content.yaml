@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 10
 title: "Soziale Verben - Geben, Nehmen, Helfen"
 description: "Die Verben to give, to take und to help mit Beispielen"
@@ -56,6 +56,13 @@ sections:
       - q: "Don't give up!"
         a: "Gib nicht auf!"
         labels: ["Imperativ", "Ausdruck"]
+        rel:
+          - ["give up", "aufgeben", "Phrasal Verb"]
+
+      - type: input
+        q: "Übersetze: Gib nicht auf!"
+        a: "Don't give up!"
+        labels: ["Übersetzung", "Phrasal Verb"]
         rel:
           - ["give up", "aufgeben", "Phrasal Verb"]
 
@@ -125,6 +132,15 @@ sections:
         rel:
           - ["take care", "pass auf dich auf", "Redewendung"]
 
+      - type: select
+        q: "Was bedeutet 'It takes 30 minutes'?"
+        options:
+          - text: "Es nimmt 30 Minuten"
+          - text: "Es braucht 30 Minuten"
+          - text: "Es dauert 30 Minuten"
+            correct: true
+        labels: ["Bedeutung", "Ausdruck"]
+
   - title: "To help"
     explanation: |
       **To help** bedeutet **helfen**:
@@ -183,6 +199,13 @@ sections:
           - ["thank you for", "danke für", "Ausdruck - Dank"]
           - ["helping", "helfen", "to help - Gerundium"]
 
+      - type: input
+        q: "Übersetze: Kannst du mir helfen?"
+        a: "Can you help me?"
+        labels: ["Übersetzung", "Frage"]
+        rel:
+          - ["help", "helfen", "to help"]
+
   - title: "Ausdrücke mit Give, Take, Help"
     explanation: |
       **Häufige Redewendungen**:
@@ -223,3 +246,10 @@ sections:
         rel:
           - ["can't help laughing", "kann nicht anders als zu lachen", "Ausdruck"]
           - ["laughing", "lachen", "Verb - Gerundium"]
+
+      - type: input
+        q: "Übersetze: Immer mit der Ruhe!"
+        a: "Take it easy!"
+        labels: ["Übersetzung", "Redewendung"]
+        rel:
+          - ["take it easy", "locker bleiben", "Redewendung"]

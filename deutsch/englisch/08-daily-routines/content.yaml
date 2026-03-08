@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 8
 title: "Tägliche Verben - Essen, Trinken, Schlafen"
 description: "Die Verben to eat, to drink und to sleep mit Beispielen"
@@ -62,6 +62,23 @@ sections:
           - ["have you eaten", "hast du gegessen", "Frage - Perfekt"]
           - ["yet", "schon/noch", "Adverb"]
 
+      - type: input
+        q: "Übersetze: Ich esse kein Fleisch."
+        a: "I don't eat meat."
+        labels: ["Übersetzung", "Verneinung"]
+        rel:
+          - ["don't eat", "esse nicht", "Verneinung"]
+          - ["meat", "Fleisch", "Substantiv - Essen"]
+
+      - type: select
+        q: "Welche Vergangenheitsform ist richtig? We ___ pizza last night."
+        options:
+          - text: "eated"
+          - text: "eat"
+          - text: "ate"
+            correct: true
+        labels: ["Vergangenheit", "unregelmäßiges Verb"]
+
   - title: "To drink"
     explanation: |
       **To drink** bedeutet **trinken**:
@@ -115,6 +132,13 @@ sections:
         rel:
           - ["drank", "tranken", "to drink - Vergangenheit"]
           - ["too much", "zu viel", "Mengenangabe"]
+
+      - type: input
+        q: "Übersetze: Was möchten Sie trinken?"
+        a: "What would you like to drink?"
+        labels: ["Übersetzung", "Höflichkeit"]
+        rel:
+          - ["would you like to drink", "möchten Sie trinken", "Höfliche Frage"]
 
   - title: "To sleep"
     explanation: |
@@ -176,3 +200,14 @@ sections:
           - ["fell asleep", "ist eingeschlafen", "Ausdruck - Vergangenheit"]
           - ["baby", "Baby", "Substantiv"]
           - ["arms", "Arme", "Substantiv - Körper"]
+
+      - type: multiple-choice
+        q: "Welche Ausdrücke bedeuten 'aufwachen' oder 'aufstehen'?"
+        options:
+          - text: "wake up"
+            correct: true
+          - text: "fall asleep"
+          - text: "get up"
+            correct: true
+          - text: "go to bed"
+        labels: ["Vokabeln", "Phrasal Verbs"]

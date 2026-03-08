@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 3
 title: "Modalverben - Können, Müssen, Sollen"
 description: "Die Modalverben can, must und should mit Beispielen"
@@ -61,6 +61,11 @@ sections:
           - ["very", "sehr", "Adverb"]
           - ["fast", "schnell", "Adverb"]
 
+      - type: input
+        q: "Übersetze: Ich kann schwimmen."
+        a: "I can swim."
+        labels: ["Fähigkeit"]
+
   - title: "Must"
     explanation: |
       **Must** bedeutet **müssen**:
@@ -116,6 +121,15 @@ sections:
         rel:
           - ["don't have to", "muss nicht", "Keine Notwendigkeit"]
           - ["come", "kommen", "Verb"]
+
+      - type: select
+        q: "'You ___ park here' (Verbot)"
+        options:
+          - text: "must not"
+            correct: true
+          - text: "don't have to"
+          - text: "should not"
+        labels: ["Verbot", "must not"]
 
   - title: "Should"
     explanation: |
@@ -176,6 +190,11 @@ sections:
           - ["should be", "sollte sein", "Erwartung"]
           - ["by now", "inzwischen", "Zeitangabe"]
 
+      - type: input
+        q: "Übersetze: Du solltest mehr lernen."
+        a: "You should study more."
+        labels: ["Empfehlung"]
+
   - title: "Can vs Must vs Should"
     explanation: |
       **Vergleich der Modalverben**:
@@ -212,3 +231,14 @@ sections:
           - ["can", "können", "Fähigkeit"]
           - ["shouldn't", "sollte nicht", "Empfehlung"]
           - ["swim", "schwimmen", "Verb - Sport"]
+
+      - type: multiple-choice
+        q: "Welche Sätze drücken eine Pflicht aus?"
+        options:
+          - text: "You must wear a seatbelt."
+            correct: true
+          - text: "You can park here."
+          - text: "You should see a doctor."
+          - text: "You must finish this today."
+            correct: true
+        labels: ["must", "Pflicht"]

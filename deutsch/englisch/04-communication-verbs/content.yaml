@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 4
 title: "Kommunikationsverben - Sagen, Erzählen, Sprechen"
 description: "Die Verben to say, to tell und to speak/talk mit Beispielen"
@@ -51,6 +51,11 @@ sections:
         rel:
           - ["they say", "man sagt", "Allgemeine Aussage"]
           - ["rain", "regnen", "Verb - Wetter"]
+
+      - type: input
+        q: "Übersetze: Was hast du gesagt?"
+        a: "What did you say?"
+        labels: ["Frage", "Vergangenheit"]
 
   - title: "To tell"
     explanation: |
@@ -110,6 +115,14 @@ sections:
           - ["told me to", "sagte mir zu", "Anweisung"]
           - ["wait", "warten", "Verb"]
 
+      - type: select
+        q: "Welcher Satz ist korrekt?"
+        options:
+          - text: "Tell me the truth."
+            correct: true
+          - text: "Say me the truth."
+        labels: ["to tell", "Satzbau"]
+
   - title: "To speak / To talk"
     explanation: |
       **To speak** und **to talk** bedeuten beide **sprechen/reden**:
@@ -168,3 +181,8 @@ sections:
         rel:
           - ["talk on the phone", "telefonieren", "Ausdruck"]
           - ["every day", "jeden Tag", "Zeitangabe"]
+
+      - type: input
+        q: "Übersetze: Sprechen Sie Englisch?"
+        a: "Do you speak English?"
+        labels: ["Frage", "to speak"]

@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 7
 title: "Denken und Verstehen - Denken, Glauben, Verstehen"
 description: "Die Verben to think, to believe und to understand mit Beispielen"
@@ -60,6 +60,14 @@ sections:
         rel:
           - ["I don't think so", "ich glaube nicht", "Redewendung"]
 
+      - type: input
+        q: "Übersetze: Was denkst du darüber?"
+        a: "What do you think about this?"
+        labels: ["Übersetzung", "Frage"]
+        rel:
+          - ["what do you think", "was denkst du", "Frage"]
+          - ["about this", "darüber", "Ausdruck"]
+
   - title: "To believe"
     explanation: |
       **To believe** bedeutet **glauben**:
@@ -107,6 +115,16 @@ sections:
         rel:
           - ["believes", "glaubt", "to believe - er/sie glaubt"]
           - ["everything", "alles", "Pronomen"]
+
+      - type: select
+        q: "Welche Präposition passt? She believes ___ herself."
+        options:
+          - text: "on"
+          - text: "at"
+          - text: "in"
+            correct: true
+          - text: "for"
+        labels: ["Präposition", "believe in"]
 
   - title: "To understand"
     explanation: |
@@ -168,3 +186,11 @@ sections:
         rel:
           - ["now", "jetzt", "Zeitangabe"]
           - ["understand", "verstehe", "to understand"]
+
+      - type: input
+        q: "Übersetze: Verstehst du die Frage?"
+        a: "Do you understand the question?"
+        labels: ["Übersetzung", "Frage"]
+        rel:
+          - ["understand", "verstehen", "to understand"]
+          - ["question", "Frage", "Substantiv"]

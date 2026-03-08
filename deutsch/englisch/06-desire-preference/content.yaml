@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 6
 title: "Wünsche und Vorlieben - Wollen, Mögen, Brauchen"
 description: "Die Verben to want, to like und to need mit Beispielen"
@@ -62,6 +62,14 @@ sections:
           - ["want to come", "kommen wollen", "Ausdruck"]
           - ["with us", "mit uns", "Pronomen"]
 
+      - type: input
+        q: "Übersetze: Ich möchte eine Tasse Kaffee."
+        a: ["I want a cup of coffee.", "I'd like a cup of coffee."]
+        labels: ["Übersetzung"]
+        rel:
+          - ["want", "möchte/will", "to want"]
+          - ["a cup of coffee", "eine Tasse Kaffee", "Ausdruck"]
+
   - title: "To like"
     explanation: |
       **To like** bedeutet **mögen/gern haben**:
@@ -120,6 +128,15 @@ sections:
           - ["some", "etwas", "Mengenangabe"]
           - ["tea", "Tee", "Substantiv - Getränk"]
 
+      - type: select
+        q: "Welcher Satz ist korrekt?"
+        options:
+          - text: "She likes reading"
+            correct: true
+          - text: "She likes read"
+          - text: "She like reading"
+        labels: ["Grammatik", "Gerundium"]
+
   - title: "To need"
     explanation: |
       **To need** bedeutet **brauchen/benötigen**:
@@ -174,6 +191,14 @@ sections:
           - ["need to talk", "müssen reden", "Ausdruck"]
           - ["talk", "reden", "Verb"]
 
+      - type: input
+        q: "Übersetze: Ich brauche deine Hilfe."
+        a: "I need your help."
+        labels: ["Übersetzung"]
+        rel:
+          - ["need", "brauche", "to need"]
+          - ["your help", "deine Hilfe", "Ausdruck"]
+
   - title: "Ausdrücke mit Want, Like, Need"
     explanation: |
       **Häufige Ausdrücke**:
@@ -208,3 +233,10 @@ sections:
         rel:
           - ["all I need", "alles was ich brauche", "Ausdruck"]
           - ["love", "Liebe", "Substantiv"]
+
+      - type: input
+        q: "Übersetze: Ich habe Lust auf Pizza."
+        a: "I feel like eating pizza."
+        labels: ["Übersetzung", "Ausdruck"]
+        rel:
+          - ["feel like", "Lust haben auf", "Ausdruck"]

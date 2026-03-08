@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 2
 title: "Bewegungsverben - Gehen, Kommen, Machen"
 description: "Die Verben to go, to come und to do/make mit Beispielen"
@@ -64,6 +64,11 @@ sections:
           - ["let's go", "lass uns gehen", "Aufforderung"]
           - ["home", "nach Hause", "Ort"]
 
+      - type: input
+        q: "Übersetze: Sie geht zur Schule."
+        a: "She goes to school."
+        labels: ["Simple Present", "3. Person Singular"]
+
   - title: "To come"
     explanation: |
       **To come** bedeutet **kommen**:
@@ -121,6 +126,11 @@ sections:
         rel:
           - ["where", "woher/wo", "Fragewort"]
           - ["come from", "kommen aus", "Ausdruck"]
+
+      - type: input
+        q: "Übersetze: Woher kommst du?"
+        a: ["Where do you come from?", "Where are you from?"]
+        labels: ["Frage", "Herkunft"]
 
   - title: "To do / To make"
     explanation: |
@@ -181,6 +191,15 @@ sections:
           - ["don't make", "mach nicht", "Verneinung - Imperativ"]
           - ["noise", "Lärm", "Substantiv"]
 
+      - type: select
+        q: "Welches Verb passt? ___ breakfast"
+        options:
+          - text: "do"
+          - text: "make"
+            correct: true
+          - text: "take"
+        labels: ["to make", "Kollokation"]
+
   - title: "Going to - Nahe Zukunft"
     explanation: |
       **Going to + Infinitiv** drückt die **nahe Zukunft** aus:
@@ -225,3 +244,8 @@ sections:
           - ["going to buy", "werden kaufen", "Zukunft"]
           - ["new", "neu", "Adjektiv"]
           - ["house", "Haus", "Substantiv"]
+
+      - type: input
+        q: "Übersetze: Ich werde kochen."
+        a: ["I am going to cook.", "I'm going to cook."]
+        labels: ["Zukunft", "going to"]

@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 5
 title: "Wahrnehmung und Wissen - Sehen, Hören, Wissen"
 description: "Die Verben to see, to hear und to know mit Beispielen"
@@ -59,6 +59,11 @@ sections:
         rel:
           - ["let me see", "lass mich sehen", "Ausdruck - Nachdenken"]
 
+      - type: input
+        q: "Übersetze: Ich verstehe, was du meinst."
+        a: "I see what you mean."
+        labels: ["Verstehen"]
+
   - title: "To hear"
     explanation: |
       **To hear** bedeutet **hören**:
@@ -109,6 +114,15 @@ sections:
         rel:
           - ["haven't heard from", "nichts gehört von", "Ausdruck"]
           - ["in weeks", "seit Wochen", "Zeitangabe"]
+
+      - type: select
+        q: "Welches Wort passt? 'Have you ___ the news?'"
+        options:
+          - text: "heared"
+          - text: "heard"
+            correct: true
+          - text: "hear"
+        labels: ["Perfekt", "Vergangenheitsform"]
 
   - title: "To know"
     explanation: |
@@ -172,3 +186,8 @@ sections:
         rel:
           - ["as far as I know", "soweit ich weiß", "Redewendung"]
           - ["London", "London", "Ort - Stadt"]
+
+      - type: input
+        q: "Übersetze: Kennst du sie?"
+        a: "Do you know her?"
+        labels: ["Frage", "Kennen"]
