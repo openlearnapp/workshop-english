@@ -1,4 +1,4 @@
-version: 1
+version: 2
 number: 1
 title: "Grundlegende Verben - Sein und Haben"
 description: "Die wichtigsten Verben to be und to have mit allen Formen"
@@ -71,6 +71,20 @@ sections:
           - ["not", "nicht", "Verneinung"]
           - ["tired", "müde", "Adjektiv - Zustand"]
 
+      - type: input
+        q: "Übersetze: Wir sind glücklich."
+        a: ["We are happy.", "We're happy."]
+        labels: ["Simple Present", "1. Person Plural"]
+
+      - type: select
+        q: "Welche Form ist richtig? He ___ a student."
+        options:
+          - text: "am"
+          - text: "is"
+            correct: true
+          - text: "are"
+        labels: ["Simple Present", "3. Person Singular"]
+
   - title: "To have"
     explanation: |
       **To have** bedeutet **haben**:
@@ -142,6 +156,19 @@ sections:
           - ["don't have", "habe nicht", "to have - Verneinung"]
           - ["time", "Zeit", "Substantiv"]
 
+      - type: input
+        q: "Übersetze: Sie hat blaue Augen."
+        a: "She has blue eyes."
+        labels: ["Simple Present", "3. Person Singular"]
+
+      - type: select
+        q: "Welche Form ist richtig für 3. Person Singular?"
+        options:
+          - text: "has"
+            correct: true
+          - text: "have"
+        labels: ["Simple Present", "3. Person Singular"]
+
   - title: "To be vs To have"
     explanation: |
       **Wichtiger Unterschied zum Deutschen**:
@@ -190,3 +217,8 @@ sections:
         rel:
           - ["have", "habe", "to have - Besitz"]
           - ["headache", "Kopfschmerzen", "Substantiv - Gesundheit"]
+
+      - type: input
+        q: "Übersetze: Ich bin 25 Jahre alt."
+        a: ["I am 25 years old.", "I'm 25 years old."]
+        labels: ["to be", "Alter"]
