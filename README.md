@@ -1,8 +1,8 @@
-# Workshop: Learn English
+# Workshop: Englisch lernen
 
-> **[Workshop starten](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-english/index.yaml)**
+> **[🌐 Landing Page](https://open-learn.app/workshop-english/)** · **[🚀 Workshop starten](https://open-learn.app/#/add?source=https://open-learn.app/workshop-english)**
 
-An interactive workshop for learning English with a focus on the most important verbs and their conjugations. German interface with 10 lessons covering 30 core verbs.
+An interactive workshop for learning English — focused on the 30 most important verbs and their conjugations. German interface with 10 lessons.
 
 ## Content
 
@@ -18,30 +18,7 @@ An interactive workshop for learning English with a focus on the most important 
 9. **Movement & Position** — To sit, to stand, to walk/run
 10. **Social Verbs** — To give, to take, to help
 
-## Structure
-
-```
-workshop-english/
-├── index.yaml
-├── index.html
-├── deutsch/
-│   ├── topics.yaml
-│   └── englisch/
-│       ├── lessons.yaml
-│       ├── 01-essential-verbs/
-│       ├── 02-action-verbs/
-│       ├── 03-modal-verbs/
-│       ├── 04-communication-verbs/
-│       ├── 05-perception-knowledge/
-│       ├── 06-desire-preference/
-│       ├── 07-thinking-understanding/
-│       ├── 08-daily-routines/
-│       ├── 09-movement-position/
-│       └── 10-social-verbs/
-```
-
 ## Links
 
-- [Open Learn Platform](https://felixboehm.github.io/open-learn/)
-- [Open Learn Repository](https://github.com/felixboehm/open-learn)
-- [External Workshop Guide](https://github.com/felixboehm/open-learn/blob/main/docs/external-workshop-guide.md)
+- [Open Learn Platform](https://open-learn.app)
+- [Open Learn Repository](https://github.com/openlearnapp/openlearnapp)
