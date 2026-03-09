@@ -1,6 +1,6 @@
 # Workshop: Englisch lernen
 
-> **[🌐 Landing Page](https://open-learn.app/workshop-english/)** · **[🚀 Workshop starten](https://open-learn.app/#/add?source=https://open-learn.app/workshop-english)**
+> **[🌐 Landing Page](https://open-learn.app/workshop-english/)** · **[🚀 Start Workshop](https://open-learn.app/#/add?source=https://open-learn.app/workshop-english)**
 
 An interactive workshop for learning English — focused on the 30 most important verbs and their conjugations. German interface with 10 lessons.
 
