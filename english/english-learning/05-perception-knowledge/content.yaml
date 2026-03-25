@@ -1,0 +1,193 @@
+version: 2
+number: 5
+title: "Perception and Knowledge - See, Hear, Know"
+description: "The verbs to see, to hear, and to know with examples"
+sections:
+  - title: "To see"
+    explanation: |
+      **To see** means **sehen** (to perceive visually):
+      - Visual perception
+      - Understanding (I see = I understand)
+      - Meeting someone (see someone)
+
+      **Conjugation**:
+      - I see, you see, he/she/it **sees**, we see, they see
+      - **Past tense**: saw
+      - **Past participle**: seen
+
+      **Difference**: see = see (passive), look = look at (active), watch = watch (longer)
+    examples:
+      - q: "I can see the mountains from here."
+        a: "Ich kann von hier die Berge sehen."
+        labels: ["Perception"]
+        rel:
+          - ["see", "sehen", "to see"]
+          - ["mountains", "Berge", "Noun - nature"]
+          - ["from here", "von hier", "Place"]
+
+      - q: "Do you see that building?"
+        a: "Siehst du das Gebäude?"
+        labels: ["Question"]
+        rel:
+          - ["do you see", "siehst du", "Question"]
+          - ["building", "Gebäude", "Noun"]
+
+      - q: "I see what you mean."
+        a: "Ich verstehe, was du meinst."
+        labels: ["Understanding"]
+        rel:
+          - ["I see", "ich verstehe", "Expression - understanding"]
+          - ["what you mean", "was du meinst", "Subordinate clause"]
+
+      - q: "She saw him at the supermarket."
+        a: "Sie hat ihn im Supermarkt gesehen."
+        labels: ["Past tense"]
+        rel:
+          - ["saw", "sah/hat gesehen", "to see - past tense"]
+          - ["supermarket", "Supermarkt", "Noun - shopping"]
+
+      - q: "I'll see you tomorrow."
+        a: "Wir sehen uns morgen."
+        labels: ["Future", "Farewell"]
+        rel:
+          - ["see you", "wir sehen uns", "Farewell greeting"]
+          - ["tomorrow", "morgen", "Time expression"]
+
+      - q: "Let me see."
+        a: "Lass mich mal sehen."
+        labels: ["Expression"]
+        rel:
+          - ["let me see", "lass mich sehen", "Expression - thinking"]
+
+      - type: input
+        q: "Translate: I see what you mean."
+        a: "I see what you mean."
+        labels: ["Understanding"]
+
+  - title: "To hear"
+    explanation: |
+      **To hear** means **hören** (to perceive sound):
+      - Auditory perception
+      - Learning news
+      - hear about = hear about something
+      - hear from = hear from someone
+
+      **Conjugation**:
+      - I hear, you hear, he/she/it **hears**, we hear, they hear
+      - **Past tense**: heard
+
+      **Difference**: hear = hear (passive), listen = listen (active)
+    examples:
+      - q: "Can you hear me?"
+        a: "Kannst du mich hören?"
+        labels: ["Question"]
+        rel:
+          - ["hear", "hören", "to hear"]
+          - ["me", "mich", "Pronoun"]
+
+      - q: "I hear music from next door."
+        a: "Ich höre Musik von nebenan."
+        labels: ["Perception"]
+        rel:
+          - ["hear", "höre", "to hear - I hear"]
+          - ["music", "Musik", "Noun"]
+          - ["next door", "nebenan", "Place"]
+
+      - q: "Have you heard the news?"
+        a: "Hast du die Neuigkeiten gehört?"
+        labels: ["Question", "Present perfect"]
+        rel:
+          - ["heard", "gehört", "to hear - past participle"]
+          - ["news", "Neuigkeiten/Nachrichten", "Noun"]
+
+      - q: "She heard a strange noise."
+        a: "Sie hörte ein seltsames Geräusch."
+        labels: ["Past tense"]
+        rel:
+          - ["heard", "hörte", "to hear - past tense"]
+          - ["strange", "seltsam", "Adjective"]
+          - ["noise", "Geräusch/Lärm", "Noun"]
+
+      - q: "I haven't heard from him in weeks."
+        a: "Ich habe seit Wochen nichts von ihm gehört."
+        labels: ["Present perfect", "Negation"]
+        rel:
+          - ["haven't heard from", "nichts gehört von", "Expression"]
+          - ["in weeks", "seit Wochen", "Time expression"]
+
+      - type: select
+        q: "Which word fits? 'Have you ___ the news?'"
+        options:
+          - text: "heared"
+          - text: "heard"
+            correct: true
+          - text: "hear"
+        labels: ["Present perfect", "Past form"]
+
+  - title: "To know"
+    explanation: |
+      **To know** means **wissen/kennen** (knowledge):
+      - Knowing facts: I know the answer
+      - Knowing people/places: I know him
+      - Knowing how: I know how to swim
+
+      **Conjugation**:
+      - I know, you know, he/she/it **knows**, we know, they know
+      - **Past tense**: knew
+      - **Past participle**: known
+
+      **Note**: In German, "wissen" (know facts) and "kennen" (know people) are different words — in English, both are **know**!
+    examples:
+      - q: "I know the answer."
+        a: "Ich weiß die Antwort."
+        labels: ["Knowledge"]
+        rel:
+          - ["know", "weiß", "to know - knowledge"]
+          - ["answer", "Antwort", "Noun"]
+
+      - q: "Do you know her?"
+        a: "Kennst du sie?"
+        labels: ["Question", "Acquaintance"]
+        rel:
+          - ["know", "kennen", "to know - acquaintance"]
+          - ["her", "sie", "Pronoun"]
+
+      - q: "He knows how to cook."
+        a: "Er weiß, wie man kocht. / Er kann kochen."
+        labels: ["Ability"]
+        rel:
+          - ["knows how to", "weiß wie man", "Expression - ability"]
+          - ["cook", "kochen", "Verb"]
+
+      - q: "I don't know where she is."
+        a: "Ich weiß nicht, wo sie ist."
+        labels: ["Negation"]
+        rel:
+          - ["don't know", "weiß nicht", "Negation"]
+          - ["where", "wo", "Question word"]
+
+      - q: "She knows Berlin very well."
+        a: "Sie kennt Berlin sehr gut."
+        labels: ["Acquaintance", "Place"]
+        rel:
+          - ["knows", "kennt", "to know - acquaintance"]
+          - ["very well", "sehr gut", "Adverb"]
+
+      - q: "You know what I mean."
+        a: "Du weißt, was ich meine."
+        labels: ["Expression"]
+        rel:
+          - ["know", "weißt", "to know - knowledge"]
+          - ["what I mean", "was ich meine", "Subordinate clause"]
+
+      - q: "As far as I know, he's in London."
+        a: "Soweit ich weiß, ist er in London."
+        labels: ["Expression"]
+        rel:
+          - ["as far as I know", "soweit ich weiß", "Idiom"]
+          - ["London", "London", "Place - city"]
+
+      - type: input
+        q: "Translate: Do you know her?"
+        a: "Do you know her?"
+        labels: ["Question", "Acquaintance"]

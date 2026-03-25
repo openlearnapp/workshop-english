@@ -1,0 +1,224 @@
+version: 2
+number: 1
+title: "Essential Verbs - To Be and To Have"
+description: "The most important verbs to be and to have with all their forms"
+sections:
+  - title: "To be"
+    explanation: |
+      **To be** means **sein** (to exist, to equal):
+      - Identity, nationality, profession
+      - Characteristics and states
+      - Age, time, weather
+
+      **Conjugation Present Tense (Simple Present)**:
+      - I am
+      - you are
+      - he/she/it is
+      - we are
+      - they are
+
+      **Short forms**: I'm, you're, he's, she's, it's, we're, they're
+    examples:
+      - q: "I am a teacher."
+        a: "Ich bin Lehrer."
+        labels: ["Simple Present", "1st Person Singular"]
+        rel:
+          - ["am", "bin", "to be - I am"]
+          - ["teacher", "Lehrer", "Noun - profession"]
+
+      - q: "You are very kind."
+        a: "Du bist sehr nett."
+        labels: ["Simple Present", "2nd Person Singular"]
+        rel:
+          - ["are", "bist", "to be - you are"]
+          - ["kind", "nett/freundlich", "Adjective"]
+
+      - q: "She is from Germany."
+        a: "Sie ist aus Deutschland."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["is", "ist", "to be - he/she/it is"]
+          - ["from", "aus/von", "Preposition - origin"]
+
+      - q: "We are students."
+        a: "Wir sind Studenten."
+        labels: ["Simple Present", "1st Person Plural"]
+        rel:
+          - ["are", "sind", "to be - we are"]
+          - ["students", "Studenten", "Noun - education"]
+
+      - q: "They are happy today."
+        a: "Sie sind heute glücklich."
+        labels: ["Simple Present", "3rd Person Plural"]
+        rel:
+          - ["are", "sind", "to be - they are"]
+          - ["happy", "glücklich", "Adjective - emotion"]
+          - ["today", "heute", "Time expression"]
+
+      - q: "It is cold outside."
+        a: "Es ist draußen kalt."
+        labels: ["Simple Present", "Weather"]
+        rel:
+          - ["is", "ist", "to be - it is"]
+          - ["cold", "kalt", "Adjective - weather"]
+          - ["outside", "draußen", "Adverb - place"]
+
+      - q: "I'm not tired."
+        a: "Ich bin nicht müde."
+        labels: ["Short form", "Negation"]
+        rel:
+          - ["I'm", "ich bin", "to be - short form"]
+          - ["not", "nicht", "Negation"]
+          - ["tired", "müde", "Adjective - state"]
+
+      - type: input
+        q: "Translate: We are happy."
+        a: ["We are happy.", "We're happy."]
+        labels: ["Simple Present", "1st Person Plural"]
+
+      - type: select
+        q: "Which form is correct? He ___ a student."
+        options:
+          - text: "am"
+          - text: "is"
+            correct: true
+          - text: "are"
+        labels: ["Simple Present", "3rd Person Singular"]
+
+  - title: "To have"
+    explanation: |
+      **To have** means **haben** (to possess):
+      - Possession
+      - Relationships
+      - Physical features
+      - Experiences (have + past participle = present perfect)
+
+      **Conjugation Present Tense (Simple Present)**:
+      - I have
+      - you have
+      - he/she/it has
+      - we have
+      - they have
+
+      **Note**: In the 3rd person singular, **has** is used!
+    examples:
+      - q: "I have a car."
+        a: "Ich habe ein Auto."
+        labels: ["Simple Present", "1st Person Singular"]
+        rel:
+          - ["have", "habe", "to have - I have"]
+          - ["a car", "ein Auto", "Noun - vehicle"]
+
+      - q: "You have two brothers."
+        a: "Du hast zwei Brüder."
+        labels: ["Simple Present", "2nd Person Singular"]
+        rel:
+          - ["have", "hast", "to have - you have"]
+          - ["two", "zwei", "Number"]
+          - ["brothers", "Brüder", "Noun - family"]
+
+      - q: "She has blue eyes."
+        a: "Sie hat blaue Augen."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["has", "hat", "to have - he/she/it has"]
+          - ["blue", "blau", "Adjective - color"]
+          - ["eyes", "Augen", "Noun - body"]
+
+      - q: "We have a big house."
+        a: "Wir haben ein großes Haus."
+        labels: ["Simple Present", "1st Person Plural"]
+        rel:
+          - ["have", "haben", "to have - we have"]
+          - ["big", "groß", "Adjective"]
+          - ["house", "Haus", "Noun - housing"]
+
+      - q: "They have three children."
+        a: "Sie haben drei Kinder."
+        labels: ["Simple Present", "3rd Person Plural"]
+        rel:
+          - ["have", "haben", "to have - they have"]
+          - ["three", "drei", "Number"]
+          - ["children", "Kinder", "Noun - family"]
+
+      - q: "He has a lot of money."
+        a: "Er hat viel Geld."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["has", "hat", "to have - he has"]
+          - ["a lot of", "viel", "Quantity"]
+          - ["money", "Geld", "Noun"]
+
+      - q: "I don't have time."
+        a: "Ich habe keine Zeit."
+        labels: ["Negation"]
+        rel:
+          - ["don't have", "habe nicht", "to have - negation"]
+          - ["time", "Zeit", "Noun"]
+
+      - type: input
+        q: "Translate: She has blue eyes."
+        a: "She has blue eyes."
+        labels: ["Simple Present", "3rd Person Singular"]
+
+      - type: select
+        q: "Which form is correct for the 3rd person singular?"
+        options:
+          - text: "has"
+            correct: true
+          - text: "have"
+        labels: ["Simple Present", "3rd Person Singular"]
+
+  - title: "To be vs To have"
+    explanation: |
+      **Important difference from German**:
+      In English we say:
+      - **I am** 25 years old (German uses "sein" too)
+      - **I am** hungry (German: ich **habe** Hunger)
+      - **I am** cold (German: mir **ist** kalt)
+
+      German often uses **haben** (to have) where English uses **to be**!
+    examples:
+      - q: "I am 30 years old."
+        a: "Ich bin 30 Jahre alt."
+        labels: ["to be", "Age"]
+        rel:
+          - ["am", "bin", "to be - age"]
+          - ["years old", "Jahre alt", "Expression - age"]
+
+      - q: "She is hungry."
+        a: "Sie hat Hunger. / Sie ist hungrig."
+        labels: ["to be", "State"]
+        rel:
+          - ["hungry", "hungrig", "Adjective - need"]
+
+      - q: "We are thirsty."
+        a: "Wir haben Durst. / Wir sind durstig."
+        labels: ["to be", "State"]
+        rel:
+          - ["thirsty", "durstig", "Adjective - need"]
+
+      - q: "He is afraid of dogs."
+        a: "Er hat Angst vor Hunden."
+        labels: ["to be", "Emotion"]
+        rel:
+          - ["afraid of", "Angst haben vor", "Expression"]
+          - ["dogs", "Hunde", "Noun - animal"]
+
+      - q: "Are you cold?"
+        a: "Ist dir kalt? / Frierst du?"
+        labels: ["to be", "Question"]
+        rel:
+          - ["cold", "kalt", "Adjective - sensation"]
+
+      - q: "I have a headache."
+        a: "Ich habe Kopfschmerzen."
+        labels: ["to have", "Health"]
+        rel:
+          - ["have", "habe", "to have - possession"]
+          - ["headache", "Kopfschmerzen", "Noun - health"]
+
+      - type: input
+        q: "Translate: I am 25 years old."
+        a: ["I am 25 years old.", "I'm 25 years old."]
+        labels: ["to be", "Age"]

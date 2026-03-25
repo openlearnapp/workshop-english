@@ -1,0 +1,201 @@
+version: 2
+number: 9
+title: "Movement and Position - Sit, Stand, Walk"
+description: "The verbs to sit, to stand, and to walk/run with examples"
+sections:
+  - title: "To sit"
+    explanation: |
+      **To sit** means **sitzen** (to be seated):
+      - Sitting down (sit down)
+      - Being seated (at a place)
+      - Often with prepositions (on, in, at)
+
+      **Conjugation**:
+      - I sit, you sit, he/she/it **sits**, we sit, they sit
+      - **Past tense**: sat
+
+      **Important expressions**:
+      - sit down = sit down / take a seat
+      - sit up = sit up straight
+      - sit next to = sit beside someone
+    examples:
+      - q: "Please sit down."
+        a: "Bitte setzen Sie sich."
+        labels: ["Imperative", "Politeness"]
+        rel:
+          - ["sit down", "sich setzen", "Phrasal verb"]
+          - ["please", "bitte", "Polite word"]
+
+      - q: "She sits next to me in class."
+        a: "Sie sitzt in der Klasse neben mir."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["sits", "sitzt", "to sit - he/she sits"]
+          - ["next to", "neben", "Preposition"]
+          - ["in class", "in der Klasse", "Place"]
+
+      - q: "We sat in the garden all afternoon."
+        a: "Wir saßen den ganzen Nachmittag im Garten."
+        labels: ["Past tense"]
+        rel:
+          - ["sat", "saßen", "to sit - past tense"]
+          - ["garden", "Garten", "Noun"]
+          - ["all afternoon", "den ganzen Nachmittag", "Time expression"]
+
+      - q: "Don't sit on the table!"
+        a: "Sitz nicht auf dem Tisch!"
+        labels: ["Imperative", "Negation"]
+        rel:
+          - ["don't sit", "sitz nicht", "Negation"]
+          - ["on", "auf", "Preposition"]
+          - ["table", "Tisch", "Noun - furniture"]
+
+      - q: "I like sitting by the window."
+        a: "Ich sitze gerne am Fenster."
+        labels: ["Gerund"]
+        rel:
+          - ["sitting", "sitzend", "to sit - gerund"]
+          - ["by the window", "am Fenster", "Place"]
+
+      - type: input
+        q: "Translate: Please sit down."
+        a: ["Please sit down.", "Sit down, please."]
+        labels: ["Translation", "Politeness"]
+        rel:
+          - ["sit down", "sich setzen", "Phrasal verb"]
+
+  - title: "To stand"
+    explanation: |
+      **To stand** means **stehen** (to be upright):
+      - Standing upright
+      - Getting up (stand up)
+      - Enduring (I can't stand it)
+
+      **Conjugation**:
+      - I stand, you stand, he/she/it **stands**, we stand, they stand
+      - **Past tense**: stood
+
+      **Important expressions**:
+      - stand up = stand up / get up
+      - stand in line = stand in a queue
+      - can't stand = can't bear / can't tolerate
+    examples:
+      - q: "Please stand up."
+        a: "Bitte stehen Sie auf."
+        labels: ["Imperative", "Politeness"]
+        rel:
+          - ["stand up", "aufstehen", "Phrasal verb"]
+
+      - q: "He stands at the bus stop every morning."
+        a: "Er steht jeden Morgen an der Bushaltestelle."
+        labels: ["Simple Present", "Routine"]
+        rel:
+          - ["stands", "steht", "to stand - he/she stands"]
+          - ["bus stop", "Bushaltestelle", "Noun - transport"]
+
+      - q: "We stood in line for an hour."
+        a: "Wir standen eine Stunde in der Schlange."
+        labels: ["Past tense"]
+        rel:
+          - ["stood", "standen", "to stand - past tense"]
+          - ["in line", "in der Schlange", "Expression"]
+          - ["for an hour", "eine Stunde lang", "Time expression"]
+
+      - q: "I can't stand the noise."
+        a: "Ich kann den Lärm nicht ertragen."
+        labels: ["Expression", "Negation"]
+        rel:
+          - ["can't stand", "kann nicht ertragen", "Expression"]
+          - ["noise", "Lärm", "Noun"]
+
+      - q: "She was standing in the rain."
+        a: "Sie stand im Regen."
+        labels: ["Progressive"]
+        rel:
+          - ["was standing", "stand", "Past continuous"]
+          - ["in the rain", "im Regen", "Place - weather"]
+          - ["rain", "Regen", "Noun - weather"]
+
+      - type: select
+        q: "What does 'I can't stand the noise' mean?"
+        options:
+          - text: "I cannot stand in the noise"
+          - text: "I cannot bear the noise"
+            correct: true
+          - text: "I stand next to the noise"
+        labels: ["Meaning", "Expression"]
+
+  - title: "To walk / To run"
+    explanation: |
+      **To walk** means **gehen/laufen** (slow movement):
+      - Walking on foot
+      - Going for a walk
+      - Walking the dog (walk the dog)
+
+      **To run** means **rennen/laufen** (fast movement):
+      - Running fast
+      - Jogging
+      - Managing (run a business)
+
+      **Conjugation**:
+      - walk: walked (past tense)
+      - run: ran (past tense), run (past participle)
+    examples:
+      - q: "I walk to work every day."
+        a: "Ich gehe jeden Tag zu Fuß zur Arbeit."
+        labels: ["Simple Present", "to walk"]
+        rel:
+          - ["walk", "gehe zu Fuß", "to walk"]
+          - ["to work", "zur Arbeit", "Place"]
+
+      - q: "She walks her dog in the park."
+        a: "Sie führt ihren Hund im Park aus."
+        labels: ["Simple Present", "to walk"]
+        rel:
+          - ["walks her dog", "führt ihren Hund aus", "Expression"]
+          - ["dog", "Hund", "Noun - animal"]
+          - ["park", "Park", "Noun - place"]
+
+      - q: "Let's go for a walk."
+        a: "Lass uns spazieren gehen."
+        labels: ["Expression", "to walk"]
+        rel:
+          - ["go for a walk", "spazieren gehen", "Expression"]
+
+      - q: "He runs five kilometers every morning."
+        a: "Er läuft jeden Morgen fünf Kilometer."
+        labels: ["Simple Present", "to run"]
+        rel:
+          - ["runs", "läuft", "to run - he/she runs"]
+          - ["five kilometers", "fünf Kilometer", "Distance"]
+
+      - q: "The children ran across the street."
+        a: "Die Kinder rannten über die Straße."
+        labels: ["Past tense", "to run"]
+        rel:
+          - ["ran", "rannten", "to run - past tense"]
+          - ["across", "über/quer durch", "Preposition"]
+          - ["street", "Straße", "Noun"]
+
+      - q: "Don't run in the hallway!"
+        a: "Renn nicht im Flur!"
+        labels: ["Imperative", "Negation", "to run"]
+        rel:
+          - ["don't run", "renn nicht", "Negation"]
+          - ["hallway", "Flur", "Noun - building"]
+
+      - q: "She runs a small business."
+        a: "Sie leitet ein kleines Unternehmen."
+        labels: ["to run", "Figurative meaning"]
+        rel:
+          - ["runs", "leitet", "to run - manage"]
+          - ["small", "klein", "Adjective"]
+          - ["business", "Unternehmen/Geschäft", "Noun"]
+
+      - type: input
+        q: "Translate: She runs a small business."
+        a: "She runs a small business."
+        labels: ["Translation", "Figurative meaning"]
+        rel:
+          - ["runs", "leitet", "to run - manage"]
+          - ["business", "Unternehmen", "Noun"]

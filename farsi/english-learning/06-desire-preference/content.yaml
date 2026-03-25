@@ -1,0 +1,242 @@
+version: 2
+number: 6
+title: "خواسته‌ها و ترجیحات - خواستن، دوست داشتن، نیاز داشتن"
+description: "افعال to want، to like و to need با مثال‌ها"
+sections:
+  - title: "To want"
+    explanation: |
+      **To want** به معنی **خواستن** است:
+      - بیان آرزوها
+      - چیزی خواستن
+      - اغلب با مصدر (want to + فعل)
+
+      **صرف**:
+      - I want, you want, he/she/it **wants**, we want, they want
+
+      **نکته**: "Would like" مودبانه‌تر از "want" است:
+      - I want coffee (مستقیم)
+      - I would like coffee / I'd like coffee (مودبانه)
+    examples:
+      - q: "I want a cup of coffee."
+        a: "من یک فنجان قهوه می‌خواهم."
+        labels: ["حال ساده"]
+        rel:
+          - ["want", "می‌خواهم", "to want"]
+          - ["a cup of", "یک فنجان", "مقدار"]
+          - ["coffee", "قهوه", "اسم - نوشیدنی"]
+
+      - q: "She wants to go home."
+        a: "او می‌خواهد به خانه برود."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["wants to", "می‌خواهد", "to want + مصدر"]
+          - ["go home", "به خانه رفتن", "عبارت"]
+
+      - q: "What do you want for dinner?"
+        a: "برای شام چه می‌خواهی؟"
+        labels: ["سوال"]
+        rel:
+          - ["what do you want", "چه می‌خواهی", "سوال"]
+          - ["for dinner", "برای شام", "وعده غذایی"]
+
+      - q: "I don't want to be late."
+        a: "نمی‌خواهم دیر برسم."
+        labels: ["منفی"]
+        rel:
+          - ["don't want to", "نمی‌خواهم", "منفی"]
+          - ["be late", "دیر رسیدن", "عبارت"]
+          - ["late", "دیر", "صفت"]
+
+      - q: "I'd like a glass of water, please."
+        a: "لطفاً یک لیوان آب می‌خواهم."
+        labels: ["مودبانه", "would like"]
+        rel:
+          - ["I'd like", "می‌خواهم", "صورت مودبانه want"]
+          - ["a glass of", "یک لیوان", "مقدار"]
+          - ["water", "آب", "اسم - نوشیدنی"]
+
+      - q: "Do you want to come with us?"
+        a: "آیا می‌خواهی با ما بیایی؟"
+        labels: ["سوال", "دعوت"]
+        rel:
+          - ["want to come", "آمدن خواستن", "عبارت"]
+          - ["with us", "با ما", "ضمیر"]
+
+      - type: input
+        q: "ترجمه کنید: من یک فنجان قهوه می‌خواهم."
+        a: ["I want a cup of coffee.", "I'd like a cup of coffee."]
+        labels: ["ترجمه"]
+        rel:
+          - ["want", "می‌خواهم", "to want"]
+          - ["a cup of coffee", "یک فنجان قهوه", "عبارت"]
+
+  - title: "To like"
+    explanation: |
+      **To like** به معنی **دوست داشتن** است:
+      - بیان ترجیحات
+      - Like + اسم (I like coffee)
+      - Like + اسم مصدر (I like swimming)
+      - Like + مصدر (I like to swim)
+
+      **صرف**:
+      - I like, you like, he/she/it **likes**, we like, they like
+
+      **درجه‌بندی**: like < love < adore
+    examples:
+      - q: "I like chocolate."
+        a: "من شکلات دوست دارم."
+        labels: ["حال ساده"]
+        rel:
+          - ["like", "دوست دارم", "to like"]
+          - ["chocolate", "شکلات", "اسم - غذا"]
+
+      - q: "She likes reading books."
+        a: "او کتاب خواندن را دوست دارد."
+        labels: ["حال ساده", "اسم مصدر"]
+        rel:
+          - ["likes reading", "دوست دارد بخواند", "like + اسم مصدر"]
+          - ["books", "کتاب‌ها", "اسم"]
+
+      - q: "Do you like your new job?"
+        a: "آیا شغل جدیدت را دوست داری؟"
+        labels: ["سوال"]
+        rel:
+          - ["do you like", "آیا دوست داری", "سوال"]
+          - ["new", "جدید", "صفت"]
+          - ["job", "شغل/کار", "اسم - کار"]
+
+      - q: "I don't like getting up early."
+        a: "دوست ندارم زود بیدار شوم."
+        labels: ["منفی", "اسم مصدر"]
+        rel:
+          - ["don't like", "دوست ندارم", "منفی"]
+          - ["getting up", "بیدار شدن", "فعل عبارتی"]
+          - ["early", "زود", "قید"]
+
+      - q: "He likes playing football."
+        a: "او فوتبال بازی کردن را دوست دارد."
+        labels: ["حال ساده", "اسم مصدر"]
+        rel:
+          - ["likes playing", "دوست دارد بازی کند", "like + اسم مصدر"]
+          - ["football", "فوتبال", "اسم - ورزش"]
+
+      - q: "Would you like some tea?"
+        a: "آیا کمی چای میل دارید؟"
+        labels: ["مودبانه", "پیشنهاد"]
+        rel:
+          - ["would you like", "آیا میل دارید", "سوال مودبانه"]
+          - ["some", "کمی", "مقدار"]
+          - ["tea", "چای", "اسم - نوشیدنی"]
+
+      - type: select
+        q: "کدام جمله درست است؟"
+        options:
+          - text: "She likes reading"
+            correct: true
+          - text: "She likes read"
+          - text: "She like reading"
+        labels: ["دستور زبان", "اسم مصدر"]
+
+  - title: "To need"
+    explanation: |
+      **To need** به معنی **نیاز داشتن** است:
+      - بیان ضرورت
+      - Need + اسم (I need help)
+      - Need + مصدر (I need to go)
+
+      **صرف**:
+      - I need, you need, he/she/it **needs**, we need, they need
+
+      **تفاوت**: want = خواستن (آرزو)، need = نیاز داشتن (ضرورت)
+    examples:
+      - q: "I need your help."
+        a: "به کمک تو نیاز دارم."
+        labels: ["حال ساده"]
+        rel:
+          - ["need", "نیاز دارم", "to need"]
+          - ["help", "کمک", "اسم"]
+
+      - q: "She needs more time."
+        a: "او به زمان بیشتری نیاز دارد."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["needs", "نیاز دارد", "to need - او نیاز دارد"]
+          - ["more", "بیشتر", "قید"]
+          - ["time", "زمان", "اسم"]
+
+      - q: "You need to be careful."
+        a: "باید مراقب باشی."
+        labels: ["هشدار"]
+        rel:
+          - ["need to be", "باید باشی", "ضرورت"]
+          - ["careful", "مراقب", "صفت"]
+
+      - q: "I don't need anything."
+        a: "به چیزی نیاز ندارم."
+        labels: ["منفی"]
+        rel:
+          - ["don't need", "نیاز ندارم", "منفی"]
+          - ["anything", "چیزی", "ضمیر"]
+
+      - q: "What do you need?"
+        a: "به چه چیزی نیاز داری؟"
+        labels: ["سوال"]
+        rel:
+          - ["what do you need", "به چه نیاز داری", "سوال"]
+
+      - q: "We need to talk."
+        a: "ما باید صحبت کنیم."
+        labels: ["عبارت"]
+        rel:
+          - ["need to talk", "باید صحبت کنیم", "عبارت"]
+          - ["talk", "صحبت کردن", "فعل"]
+
+      - type: input
+        q: "ترجمه کنید: به کمک تو نیاز دارم."
+        a: "I need your help."
+        labels: ["ترجمه"]
+        rel:
+          - ["need", "نیاز دارم", "to need"]
+          - ["your help", "کمک تو", "عبارت"]
+
+  - title: "عبارات با Want، Like، Need"
+    explanation: |
+      **عبارات رایج**:
+      - I'd love to = خیلی دوست دارم
+      - feel like = میل داشتن
+      - if you like = اگر دوست داری
+      - as you like = هر طور دوست داری
+    examples:
+      - q: "I'd love to come to your party."
+        a: "خیلی دوست دارم به مهمانی تو بیایم."
+        labels: ["عبارت", "مودبانه"]
+        rel:
+          - ["I'd love to", "خیلی دوست دارم", "عبارت"]
+
+      - q: "I feel like eating pizza."
+        a: "هوس پیتزا دارم."
+        labels: ["عبارت"]
+        rel:
+          - ["feel like", "هوس داشتن", "عبارت"]
+          - ["pizza", "پیتزا", "اسم - غذا"]
+
+      - q: "You can stay if you like."
+        a: "اگر دوست داری می‌توانی بمانی."
+        labels: ["عبارت", "پیشنهاد"]
+        rel:
+          - ["if you like", "اگر دوست داری", "عبارت"]
+          - ["stay", "ماندن", "فعل"]
+
+      - q: "All I need is love."
+        a: "تنها چیزی که نیاز دارم عشق است."
+        labels: ["عبارت"]
+        rel:
+          - ["all I need", "تنها چیزی که نیاز دارم", "عبارت"]
+          - ["love", "عشق", "اسم"]
+
+      - type: input
+        q: "ترجمه کنید: هوس پیتزا دارم."
+        a: "I feel like eating pizza."
+        labels: ["ترجمه", "عبارت"]
+        rel:
+          - ["feel like", "هوس داشتن", "عبارت"]

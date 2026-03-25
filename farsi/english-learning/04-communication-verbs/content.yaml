@@ -1,0 +1,188 @@
+version: 2
+number: 4
+title: "افعال ارتباطی - گفتن، تعریف کردن، صحبت کردن"
+description: "افعال to say، to tell و to speak/talk با مثال‌ها"
+sections:
+  - title: "To say"
+    explanation: |
+      **To say** به معنی **گفتن** است:
+      - بیان کلمات یا جملات
+      - گزارش دادن
+      - اغلب با نقل قول مستقیم یا غیرمستقیم
+
+      **صرف**:
+      - I say, you say, he/she/it **says**, we say, they say
+      - **گذشته**: said
+
+      **مهم**: say something **to** someone (نه ~~say someone~~)
+    examples:
+      - q: "She says hello every morning."
+        a: "او هر صبح سلام می‌کند."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["says", "می‌گوید", "to say - او می‌گوید"]
+          - ["hello", "سلام", "احوالپرسی"]
+          - ["every morning", "هر صبح", "قید زمان"]
+
+      - q: "What did you say?"
+        a: "چه گفتی؟"
+        labels: ["سوال", "گذشته"]
+        rel:
+          - ["did you say", "گفتی", "سوال - گذشته"]
+          - ["what", "چه", "کلمه پرسشی"]
+
+      - q: "He said he was tired."
+        a: "او گفت که خسته است."
+        labels: ["نقل قول غیرمستقیم"]
+        rel:
+          - ["said", "گفت", "to say - گذشته"]
+          - ["was tired", "خسته بود", "نقل قول غیرمستقیم"]
+
+      - q: "I want to say something."
+        a: "می‌خواهم چیزی بگویم."
+        labels: ["عبارت"]
+        rel:
+          - ["want to say", "می‌خواهم بگویم", "عبارت"]
+          - ["something", "چیزی", "ضمیر"]
+
+      - q: "They say it's going to rain."
+        a: "می‌گویند باران خواهد بارید."
+        labels: ["عمومی"]
+        rel:
+          - ["they say", "می‌گویند", "بیان عمومی"]
+          - ["rain", "باران باریدن", "فعل - آب و هوا"]
+
+      - type: input
+        q: "ترجمه کنید: چه گفتی؟"
+        a: "What did you say?"
+        labels: ["سوال", "گذشته"]
+
+  - title: "To tell"
+    explanation: |
+      **To tell** به معنی **گفتن/تعریف کردن** است:
+      - انتقال اطلاعات
+      - تعریف کردن داستان
+      - دستور دادن
+
+      **تفاوت مهم با say**:
+      - **tell** someone something (tell **me** the truth)
+      - **say** something to someone (say hello **to me**)
+
+      **صرف**:
+      - I tell, you tell, he/she/it **tells**, we tell, they tell
+      - **گذشته**: told
+    examples:
+      - q: "Tell me about your day."
+        a: "از روزت برایم تعریف کن."
+        labels: ["امری"]
+        rel:
+          - ["tell me", "به من بگو", "to tell - امری"]
+          - ["about", "درباره", "حرف اضافه"]
+
+      - q: "She tells funny stories."
+        a: "او داستان‌های خنده‌دار تعریف می‌کند."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["tells", "تعریف می‌کند", "to tell - او تعریف می‌کند"]
+          - ["funny", "خنده‌دار", "صفت"]
+          - ["stories", "داستان‌ها", "اسم"]
+
+      - q: "Can you tell me the way?"
+        a: "آیا می‌توانی راه را به من بگویی؟"
+        labels: ["سوال", "مودبانه"]
+        rel:
+          - ["tell me", "به من بگو", "to tell"]
+          - ["the way", "راه", "اسم"]
+
+      - q: "I told him the truth."
+        a: "من حقیقت را به او گفتم."
+        labels: ["گذشته"]
+        rel:
+          - ["told", "گفتم", "to tell - گذشته"]
+          - ["truth", "حقیقت", "اسم"]
+
+      - q: "Don't tell anyone!"
+        a: "به کسی نگو!"
+        labels: ["امری", "منفی"]
+        rel:
+          - ["don't tell", "نگو", "منفی"]
+          - ["anyone", "کسی", "ضمیر"]
+
+      - q: "He told me to wait."
+        a: "او به من گفت صبر کنم."
+        labels: ["دستور"]
+        rel:
+          - ["told me to", "به من گفت", "دستور"]
+          - ["wait", "صبر کردن", "فعل"]
+
+      - type: select
+        q: "کدام جمله درست است؟"
+        options:
+          - text: "Tell me the truth."
+            correct: true
+          - text: "Say me the truth."
+        labels: ["to tell", "ساختار جمله"]
+
+  - title: "To speak / To talk"
+    explanation: |
+      **To speak** و **to talk** هر دو به معنی **صحبت کردن** هستند:
+
+      **To speak** (رسمی‌تر):
+      - صحبت کردن به زبان‌ها (speak English)
+      - سخنرانی در جمع
+      - تلفن (May I speak to...?)
+
+      **To talk** (غیررسمی‌تر):
+      - گفتگو کردن
+      - حرف زدن
+      - Talk **about** = درباره چیزی حرف زدن
+      - Talk **to** = با کسی حرف زدن
+    examples:
+      - q: "Do you speak English?"
+        a: "آیا انگلیسی صحبت می‌کنید؟"
+        labels: ["سوال", "to speak"]
+        rel:
+          - ["speak", "صحبت کردن", "to speak"]
+          - ["English", "انگلیسی", "زبان"]
+
+      - q: "She speaks three languages."
+        a: "او سه زبان صحبت می‌کند."
+        labels: ["حال ساده", "to speak"]
+        rel:
+          - ["speaks", "صحبت می‌کند", "to speak - او صحبت می‌کند"]
+          - ["three", "سه", "عدد"]
+          - ["languages", "زبان‌ها", "اسم"]
+
+      - q: "Can I talk to you for a moment?"
+        a: "آیا می‌توانم یک لحظه با تو صحبت کنم؟"
+        labels: ["سوال", "to talk"]
+        rel:
+          - ["talk to", "صحبت کردن با", "عبارت"]
+          - ["for a moment", "یک لحظه", "قید زمان"]
+
+      - q: "We need to talk about this."
+        a: "ما باید درباره این صحبت کنیم."
+        labels: ["to talk", "عبارت"]
+        rel:
+          - ["talk about", "صحبت کردن درباره", "عبارت"]
+          - ["need to", "باید", "ضرورت"]
+
+      - q: "He speaks too quietly."
+        a: "او خیلی آرام صحبت می‌کند."
+        labels: ["to speak"]
+        rel:
+          - ["speaks", "صحبت می‌کند", "to speak"]
+          - ["too", "خیلی", "قید"]
+          - ["quietly", "آرام", "قید"]
+
+      - q: "They talk on the phone every day."
+        a: "آن‌ها هر روز تلفنی صحبت می‌کنند."
+        labels: ["to talk"]
+        rel:
+          - ["talk on the phone", "تلفنی صحبت کردن", "عبارت"]
+          - ["every day", "هر روز", "قید زمان"]
+
+      - type: input
+        q: "ترجمه کنید: آیا انگلیسی صحبت می‌کنید؟"
+        a: "Do you speak English?"
+        labels: ["سوال", "to speak"]

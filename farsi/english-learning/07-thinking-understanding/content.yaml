@@ -1,0 +1,196 @@
+version: 2
+number: 7
+title: "تفکر و درک - فکر کردن، باور داشتن، فهمیدن"
+description: "افعال to think، to believe و to understand با مثال‌ها"
+sections:
+  - title: "To think"
+    explanation: |
+      **To think** به معنی **فکر کردن/نظر داشتن** است:
+      - بیان نظرات (I think it's good)
+      - تأمل کردن (think about)
+      - فکر کردن (let me think)
+
+      **صرف**:
+      - I think, you think, he/she/it **thinks**, we think, they think
+      - **گذشته**: thought
+
+      **ساختارهای مهم**:
+      - think about = فکر کردن درباره
+      - think of = فکر کردن به
+      - I think so = فکر می‌کنم همینطور باشد
+    examples:
+      - q: "I think it's a good idea."
+        a: "فکر می‌کنم ایده خوبی است."
+        labels: ["نظر"]
+        rel:
+          - ["think", "فکر می‌کنم", "to think - نظر"]
+          - ["good idea", "ایده خوب", "عبارت"]
+
+      - q: "What do you think about this?"
+        a: "نظرت درباره این چیست؟"
+        labels: ["سوال"]
+        rel:
+          - ["what do you think", "نظرت چیست", "سوال"]
+          - ["about this", "درباره این", "عبارت"]
+
+      - q: "She thinks he is right."
+        a: "او فکر می‌کند که او حق دارد."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["thinks", "فکر می‌کند", "to think - او فکر می‌کند"]
+          - ["right", "درست/حق", "صفت"]
+
+      - q: "I thought you were coming."
+        a: "فکر کردم داری می‌آیی."
+        labels: ["گذشته"]
+        rel:
+          - ["thought", "فکر کردم", "to think - گذشته"]
+          - ["were coming", "داری می‌آیی", "استمراری"]
+
+      - q: "Let me think about it."
+        a: "بگذار درباره‌اش فکر کنم."
+        labels: ["عبارت"]
+        rel:
+          - ["let me think", "بگذار فکر کنم", "عبارت"]
+          - ["about it", "درباره‌اش", "ضمیر"]
+
+      - q: "I don't think so."
+        a: "فکر نمی‌کنم."
+        labels: ["منفی", "عبارت"]
+        rel:
+          - ["I don't think so", "فکر نمی‌کنم", "اصطلاح"]
+
+      - type: input
+        q: "ترجمه کنید: نظرت درباره این چیست؟"
+        a: "What do you think about this?"
+        labels: ["ترجمه", "سوال"]
+        rel:
+          - ["what do you think", "نظرت چیست", "سوال"]
+          - ["about this", "درباره این", "عبارت"]
+
+  - title: "To believe"
+    explanation: |
+      **To believe** به معنی **باور داشتن/اعتقاد داشتن** است:
+      - باور داشتن به چیزی (believe in)
+      - چیزی را درست دانستن
+      - اعتماد کردن
+
+      **صرف**:
+      - I believe, you believe, he/she/it **believes**, we believe, they believe
+
+      **تفاوت با think**:
+      - **think** = فکر کردن، نظر داشتن (نظر)
+      - **believe** = باور داشتن، مطمئن بودن (قوی‌تر)
+    examples:
+      - q: "I believe you."
+        a: "باورت دارم."
+        labels: ["اعتماد"]
+        rel:
+          - ["believe", "باور دارم", "to believe"]
+          - ["you", "تو را", "ضمیر"]
+
+      - q: "She believes in herself."
+        a: "او به خودش ایمان دارد."
+        labels: ["اعتقاد"]
+        rel:
+          - ["believes in", "ایمان دارد به", "to believe in"]
+          - ["herself", "خودش", "ضمیر انعکاسی"]
+
+      - q: "I can't believe it!"
+        a: "باورم نمی‌شود!"
+        labels: ["عبارت", "تعجب"]
+        rel:
+          - ["can't believe", "باور نمی‌کنم", "عبارت"]
+
+      - q: "Do you believe in ghosts?"
+        a: "آیا به ارواح اعتقاد داری؟"
+        labels: ["سوال"]
+        rel:
+          - ["believe in", "اعتقاد داشتن به", "to believe in"]
+          - ["ghosts", "ارواح", "اسم"]
+
+      - q: "He believes everything she says."
+        a: "او هر چیزی که او می‌گوید باور می‌کند."
+        labels: ["حال ساده"]
+        rel:
+          - ["believes", "باور می‌کند", "to believe - او باور می‌کند"]
+          - ["everything", "همه چیز", "ضمیر"]
+
+      - type: select
+        q: "کدام حرف اضافه مناسب است؟ She believes ___ herself."
+        options:
+          - text: "on"
+          - text: "at"
+          - text: "in"
+            correct: true
+          - text: "for"
+        labels: ["حرف اضافه", "believe in"]
+
+  - title: "To understand"
+    explanation: |
+      **To understand** به معنی **فهمیدن/درک کردن** است:
+      - فهمیدن زبان
+      - درک مطلب
+      - نشان دادن تفاهم
+
+      **صرف**:
+      - I understand, you understand, he/she/it **understands**
+      - **گذشته**: understood
+
+      **عبارات مفید**:
+      - I understand = می‌فهمم
+      - I don't understand = نمی‌فهمم
+      - Do you understand? = آیا می‌فهمی؟
+    examples:
+      - q: "I understand German but I can't speak it well."
+        a: "من آلمانی می‌فهمم اما نمی‌توانم خوب صحبت کنم."
+        labels: ["توانایی"]
+        rel:
+          - ["understand", "می‌فهمم", "to understand"]
+          - ["German", "آلمانی", "زبان"]
+          - ["can't speak", "نمی‌توانم صحبت کنم", "منفی"]
+
+      - q: "Do you understand the question?"
+        a: "آیا سوال را می‌فهمی؟"
+        labels: ["سوال"]
+        rel:
+          - ["understand", "فهمیدن", "to understand"]
+          - ["question", "سوال", "اسم"]
+
+      - q: "She doesn't understand why he left."
+        a: "او نمی‌فهمد چرا او رفت."
+        labels: ["منفی"]
+        rel:
+          - ["doesn't understand", "نمی‌فهمد", "منفی"]
+          - ["why", "چرا", "کلمه پرسشی"]
+          - ["left", "رفت", "to leave - گذشته"]
+
+      - q: "I understood everything he said."
+        a: "هر چیزی که گفت را فهمیدم."
+        labels: ["گذشته"]
+        rel:
+          - ["understood", "فهمیدم", "گذشته"]
+          - ["everything", "همه چیز", "ضمیر"]
+
+      - q: "Please speak slowly, I don't understand."
+        a: "لطفاً آهسته صحبت کنید، نمی‌فهمم."
+        labels: ["درخواست", "منفی"]
+        rel:
+          - ["please", "لطفاً", "کلمه مودبانه"]
+          - ["slowly", "آهسته", "قید"]
+          - ["don't understand", "نمی‌فهمم", "منفی"]
+
+      - q: "Now I understand!"
+        a: "حالا می‌فهمم!"
+        labels: ["عبارت"]
+        rel:
+          - ["now", "حالا", "قید زمان"]
+          - ["understand", "می‌فهمم", "to understand"]
+
+      - type: input
+        q: "ترجمه کنید: آیا سوال را می‌فهمی؟"
+        a: "Do you understand the question?"
+        labels: ["ترجمه", "سوال"]
+        rel:
+          - ["understand", "فهمیدن", "to understand"]
+          - ["question", "سوال", "اسم"]

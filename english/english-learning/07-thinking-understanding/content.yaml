@@ -1,0 +1,196 @@
+version: 2
+number: 7
+title: "Thinking and Understanding - Think, Believe, Understand"
+description: "The verbs to think, to believe, and to understand with examples"
+sections:
+  - title: "To think"
+    explanation: |
+      **To think** means **denken/meinen** (to have thoughts):
+      - Expressing opinions (I think it's good)
+      - Reflecting (think about)
+      - Considering (let me think)
+
+      **Conjugation**:
+      - I think, you think, he/she/it **thinks**, we think, they think
+      - **Past tense**: thought
+
+      **Important constructions**:
+      - think about = think about / reflect on
+      - think of = think of / remember
+      - I think so = I believe so
+    examples:
+      - q: "I think it's a good idea."
+        a: "Ich denke, es ist eine gute Idee."
+        labels: ["Opinion"]
+        rel:
+          - ["think", "denke", "to think - opinion"]
+          - ["good idea", "gute Idee", "Expression"]
+
+      - q: "What do you think about this?"
+        a: "Was denkst du darüber?"
+        labels: ["Question"]
+        rel:
+          - ["what do you think", "was denkst du", "Question"]
+          - ["about this", "darüber", "Expression"]
+
+      - q: "She thinks he is right."
+        a: "Sie denkt, er hat recht."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["thinks", "denkt", "to think - he/she thinks"]
+          - ["right", "recht/richtig", "Adjective"]
+
+      - q: "I thought you were coming."
+        a: "Ich dachte, du kommst."
+        labels: ["Past tense"]
+        rel:
+          - ["thought", "dachte", "to think - past tense"]
+          - ["were coming", "kommst", "Progressive form"]
+
+      - q: "Let me think about it."
+        a: "Lass mich darüber nachdenken."
+        labels: ["Expression"]
+        rel:
+          - ["let me think", "lass mich nachdenken", "Expression"]
+          - ["about it", "darüber", "Pronoun"]
+
+      - q: "I don't think so."
+        a: "Ich glaube nicht."
+        labels: ["Negation", "Expression"]
+        rel:
+          - ["I don't think so", "ich glaube nicht", "Idiom"]
+
+      - type: input
+        q: "Translate: What do you think about this?"
+        a: "What do you think about this?"
+        labels: ["Translation", "Question"]
+        rel:
+          - ["what do you think", "was denkst du", "Question"]
+          - ["about this", "darüber", "Expression"]
+
+  - title: "To believe"
+    explanation: |
+      **To believe** means **glauben** (to have faith):
+      - Believing in something (believe in)
+      - Considering something true
+      - Trusting
+
+      **Conjugation**:
+      - I believe, you believe, he/she/it **believes**, we believe, they believe
+
+      **Difference from think**:
+      - **think** = think, have an opinion (opinion)
+      - **believe** = believe, be convinced (stronger)
+    examples:
+      - q: "I believe you."
+        a: "Ich glaube dir."
+        labels: ["Trust"]
+        rel:
+          - ["believe", "glaube", "to believe"]
+          - ["you", "dir", "Pronoun"]
+
+      - q: "She believes in herself."
+        a: "Sie glaubt an sich selbst."
+        labels: ["Conviction"]
+        rel:
+          - ["believes in", "glaubt an", "to believe in"]
+          - ["herself", "sich selbst", "Reflexive pronoun"]
+
+      - q: "I can't believe it!"
+        a: "Ich kann es nicht glauben!"
+        labels: ["Expression", "Surprise"]
+        rel:
+          - ["can't believe", "kann nicht glauben", "Expression"]
+
+      - q: "Do you believe in ghosts?"
+        a: "Glaubst du an Geister?"
+        labels: ["Question"]
+        rel:
+          - ["believe in", "glauben an", "to believe in"]
+          - ["ghosts", "Geister", "Noun"]
+
+      - q: "He believes everything she says."
+        a: "Er glaubt alles, was sie sagt."
+        labels: ["Simple Present"]
+        rel:
+          - ["believes", "glaubt", "to believe - he/she believes"]
+          - ["everything", "alles", "Pronoun"]
+
+      - type: select
+        q: "Which preposition fits? She believes ___ herself."
+        options:
+          - text: "on"
+          - text: "at"
+          - text: "in"
+            correct: true
+          - text: "for"
+        labels: ["Preposition", "believe in"]
+
+  - title: "To understand"
+    explanation: |
+      **To understand** means **verstehen** (to comprehend):
+      - Understanding language
+      - Grasping content
+      - Showing understanding
+
+      **Conjugation**:
+      - I understand, you understand, he/she/it **understands**
+      - **Past tense**: understood
+
+      **Useful expressions**:
+      - I understand = I understand
+      - I don't understand = I don't understand
+      - Do you understand? = Do you understand?
+    examples:
+      - q: "I understand German but I can't speak it well."
+        a: "Ich verstehe Deutsch, aber ich kann es nicht gut sprechen."
+        labels: ["Ability"]
+        rel:
+          - ["understand", "verstehe", "to understand"]
+          - ["German", "Deutsch", "Language"]
+          - ["can't speak", "kann nicht sprechen", "Negation"]
+
+      - q: "Do you understand the question?"
+        a: "Verstehst du die Frage?"
+        labels: ["Question"]
+        rel:
+          - ["understand", "verstehen", "to understand"]
+          - ["question", "Frage", "Noun"]
+
+      - q: "She doesn't understand why he left."
+        a: "Sie versteht nicht, warum er gegangen ist."
+        labels: ["Negation"]
+        rel:
+          - ["doesn't understand", "versteht nicht", "Negation"]
+          - ["why", "warum", "Question word"]
+          - ["left", "gegangen ist", "to leave - past tense"]
+
+      - q: "I understood everything he said."
+        a: "Ich habe alles verstanden, was er gesagt hat."
+        labels: ["Past tense"]
+        rel:
+          - ["understood", "verstand/habe verstanden", "Past tense"]
+          - ["everything", "alles", "Pronoun"]
+
+      - q: "Please speak slowly, I don't understand."
+        a: "Bitte sprich langsam, ich verstehe nicht."
+        labels: ["Request", "Negation"]
+        rel:
+          - ["please", "bitte", "Polite word"]
+          - ["slowly", "langsam", "Adverb"]
+          - ["don't understand", "verstehe nicht", "Negation"]
+
+      - q: "Now I understand!"
+        a: "Jetzt verstehe ich!"
+        labels: ["Expression"]
+        rel:
+          - ["now", "jetzt", "Time expression"]
+          - ["understand", "verstehe", "to understand"]
+
+      - type: input
+        q: "Translate: Do you understand the question?"
+        a: "Do you understand the question?"
+        labels: ["Translation", "Question"]
+        rel:
+          - ["understand", "verstehen", "to understand"]
+          - ["question", "Frage", "Noun"]

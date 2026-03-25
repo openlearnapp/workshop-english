@@ -1,0 +1,212 @@
+version: 2
+number: 8
+title: "افعال روزمره - خوردن، نوشیدن، خوابیدن"
+description: "افعال to eat، to drink و to sleep با مثال‌ها"
+sections:
+  - title: "To eat"
+    explanation: |
+      **To eat** به معنی **خوردن** است:
+      - وعده‌های غذایی خوردن
+      - غذا خوردن
+
+      **صرف**:
+      - I eat, you eat, he/she/it **eats**, we eat, they eat
+      - **گذشته**: ate
+      - **اسم مفعول**: eaten
+
+      **وعده‌های غذایی**:
+      - breakfast = صبحانه
+      - lunch = ناهار
+      - dinner/supper = شام
+    examples:
+      - q: "I eat breakfast at seven."
+        a: "من ساعت هفت صبحانه می‌خورم."
+        labels: ["حال ساده", "روتین"]
+        rel:
+          - ["eat", "می‌خورم", "to eat"]
+          - ["breakfast", "صبحانه", "اسم - وعده غذایی"]
+          - ["at seven", "ساعت هفت", "ساعت"]
+
+      - q: "She eats a lot of vegetables."
+        a: "او سبزیجات زیادی می‌خورد."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["eats", "می‌خورد", "to eat - او می‌خورد"]
+          - ["a lot of", "زیاد", "مقدار"]
+          - ["vegetables", "سبزیجات", "اسم - غذا"]
+
+      - q: "We ate pizza last night."
+        a: "ما دیشب پیتزا خوردیم."
+        labels: ["گذشته"]
+        rel:
+          - ["ate", "خوردیم", "to eat - گذشته"]
+          - ["last night", "دیشب", "قید زمان"]
+
+      - q: "What do you want to eat?"
+        a: "چه چیزی می‌خواهی بخوری؟"
+        labels: ["سوال"]
+        rel:
+          - ["want to eat", "خواستن خوردن", "عبارت"]
+
+      - q: "I don't eat meat."
+        a: "من گوشت نمی‌خورم."
+        labels: ["منفی"]
+        rel:
+          - ["don't eat", "نمی‌خورم", "منفی"]
+          - ["meat", "گوشت", "اسم - غذا"]
+
+      - q: "Have you eaten yet?"
+        a: "آیا هنوز غذا خورده‌ای؟"
+        labels: ["سوال", "ماضی نقلی"]
+        rel:
+          - ["have you eaten", "آیا خورده‌ای", "سوال - ماضی نقلی"]
+          - ["yet", "هنوز", "قید"]
+
+      - type: input
+        q: "ترجمه کنید: من گوشت نمی‌خورم."
+        a: "I don't eat meat."
+        labels: ["ترجمه", "منفی"]
+        rel:
+          - ["don't eat", "نمی‌خورم", "منفی"]
+          - ["meat", "گوشت", "اسم - غذا"]
+
+      - type: select
+        q: "کدام صورت گذشته درست است؟ We ___ pizza last night."
+        options:
+          - text: "eated"
+          - text: "eat"
+          - text: "ate"
+            correct: true
+        labels: ["گذشته", "فعل بی‌قاعده"]
+
+  - title: "To drink"
+    explanation: |
+      **To drink** به معنی **نوشیدن** است:
+      - مایعات نوشیدن
+
+      **صرف**:
+      - I drink, you drink, he/she/it **drinks**, we drink, they drink
+      - **گذشته**: drank
+      - **اسم مفعول**: drunk
+
+      **نوشیدنی‌ها**:
+      - water = آب
+      - coffee = قهوه
+      - tea = چای
+      - juice = آبمیوه
+      - beer = آبجو
+      - wine = شراب
+    examples:
+      - q: "I drink coffee every morning."
+        a: "من هر صبح قهوه می‌نوشم."
+        labels: ["حال ساده", "روتین"]
+        rel:
+          - ["drink", "می‌نوشم", "to drink"]
+          - ["coffee", "قهوه", "اسم - نوشیدنی"]
+          - ["every morning", "هر صبح", "قید زمان"]
+
+      - q: "She drinks a lot of water."
+        a: "او آب زیادی می‌نوشد."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["drinks", "می‌نوشد", "to drink - او می‌نوشد"]
+          - ["water", "آب", "اسم - نوشیدنی"]
+
+      - q: "What would you like to drink?"
+        a: "چه چیزی میل دارید بنوشید؟"
+        labels: ["سوال", "مودبانه"]
+        rel:
+          - ["would you like to drink", "میل دارید بنوشید", "سوال مودبانه"]
+
+      - q: "I don't drink alcohol."
+        a: "من الکل نمی‌نوشم."
+        labels: ["منفی"]
+        rel:
+          - ["don't drink", "نمی‌نوشم", "منفی"]
+          - ["alcohol", "الکل", "اسم"]
+
+      - q: "We drank too much last night."
+        a: "ما دیشب زیاد نوشیدیم."
+        labels: ["گذشته"]
+        rel:
+          - ["drank", "نوشیدیم", "to drink - گذشته"]
+          - ["too much", "زیاد", "مقدار"]
+
+      - type: input
+        q: "ترجمه کنید: چه چیزی میل دارید بنوشید؟"
+        a: "What would you like to drink?"
+        labels: ["ترجمه", "مودبانه"]
+        rel:
+          - ["would you like to drink", "میل دارید بنوشید", "سوال مودبانه"]
+
+  - title: "To sleep"
+    explanation: |
+      **To sleep** به معنی **خوابیدن** است:
+      - خواب شب
+      - چرت زدن (take a nap)
+      - عبارات مرتبط: wake up، get up، go to bed
+
+      **صرف**:
+      - I sleep, you sleep, he/she/it **sleeps**, we sleep, they sleep
+      - **گذشته**: slept
+
+      **عبارات مفید**:
+      - go to bed = به رختخواب رفتن
+      - fall asleep = خوابیدن (به خواب رفتن)
+      - wake up = بیدار شدن
+      - get up = بلند شدن
+    examples:
+      - q: "I sleep eight hours a night."
+        a: "من هر شب هشت ساعت می‌خوابم."
+        labels: ["حال ساده", "روتین"]
+        rel:
+          - ["sleep", "می‌خوابم", "to sleep"]
+          - ["eight hours", "هشت ساعت", "قید زمان"]
+          - ["a night", "هر شب", "قید زمان"]
+
+      - q: "She slept until noon."
+        a: "او تا ظهر خوابید."
+        labels: ["گذشته"]
+        rel:
+          - ["slept", "خوابید", "to sleep - گذشته"]
+          - ["until noon", "تا ظهر", "قید زمان"]
+
+      - q: "I can't sleep when it's noisy."
+        a: "وقتی سر و صدا است نمی‌توانم بخوابم."
+        labels: ["منفی"]
+        rel:
+          - ["can't sleep", "نمی‌توانم بخوابم", "منفی"]
+          - ["noisy", "پر سر و صدا", "صفت"]
+
+      - q: "I go to bed at eleven."
+        a: "من ساعت یازده به رختخواب می‌روم."
+        labels: ["عبارت", "روتین"]
+        rel:
+          - ["go to bed", "به رختخواب رفتن", "عبارت"]
+          - ["at eleven", "ساعت یازده", "ساعت"]
+
+      - q: "He wakes up at six every day."
+        a: "او هر روز ساعت شش بیدار می‌شود."
+        labels: ["عبارت", "روتین"]
+        rel:
+          - ["wakes up", "بیدار می‌شود", "فعل عبارتی"]
+          - ["at six", "ساعت شش", "ساعت"]
+
+      - q: "The baby fell asleep in my arms."
+        a: "نوزاد در آغوشم خوابش برد."
+        labels: ["گذشته", "عبارت"]
+        rel:
+          - ["fell asleep", "خوابش برد", "عبارت - گذشته"]
+          - ["baby", "نوزاد", "اسم"]
+          - ["arms", "آغوش/بازوها", "اسم - بدن"]
+
+      - type: multiple-choice
+        q: "کدام عبارات به معنی «بیدار شدن» یا «بلند شدن» هستند؟"
+        options:
+          - text: "wake up"
+            correct: true
+          - text: "fall asleep"
+          - text: "get up"
+            correct: true
+          - text: "go to bed"
+        labels: ["واژگان", "افعال عبارتی"]

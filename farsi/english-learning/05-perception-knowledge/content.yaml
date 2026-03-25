@@ -1,0 +1,193 @@
+version: 2
+number: 5
+title: "ادراک و دانش - دیدن، شنیدن، دانستن"
+description: "افعال to see، to hear و to know با مثال‌ها"
+sections:
+  - title: "To see"
+    explanation: |
+      **To see** به معنی **دیدن** است:
+      - ادراک بصری
+      - فهمیدن (I see = می‌فهمم)
+      - ملاقات کردن (see someone)
+
+      **صرف**:
+      - I see, you see, he/she/it **sees**, we see, they see
+      - **گذشته**: saw
+      - **اسم مفعول**: seen
+
+      **تفاوت**: see = دیدن (غیرارادی)، look = نگاه کردن (ارادی)، watch = تماشا کردن (طولانی)
+    examples:
+      - q: "I can see the mountains from here."
+        a: "من از اینجا می‌توانم کوه‌ها را ببینم."
+        labels: ["ادراک"]
+        rel:
+          - ["see", "دیدن", "to see"]
+          - ["mountains", "کوه‌ها", "اسم - طبیعت"]
+          - ["from here", "از اینجا", "مکان"]
+
+      - q: "Do you see that building?"
+        a: "آیا آن ساختمان را می‌بینی؟"
+        labels: ["سوال"]
+        rel:
+          - ["do you see", "آیا می‌بینی", "سوال"]
+          - ["building", "ساختمان", "اسم"]
+
+      - q: "I see what you mean."
+        a: "می‌فهمم منظورت چیست."
+        labels: ["فهمیدن"]
+        rel:
+          - ["I see", "می‌فهمم", "عبارت - فهمیدن"]
+          - ["what you mean", "منظورت", "جمله فرعی"]
+
+      - q: "She saw him at the supermarket."
+        a: "او را در سوپرمارکت دید."
+        labels: ["گذشته"]
+        rel:
+          - ["saw", "دید", "to see - گذشته"]
+          - ["supermarket", "سوپرمارکت", "اسم - خرید"]
+
+      - q: "I'll see you tomorrow."
+        a: "فردا می‌بینمت."
+        labels: ["آینده", "خداحافظی"]
+        rel:
+          - ["see you", "می‌بینمت", "خداحافظی"]
+          - ["tomorrow", "فردا", "قید زمان"]
+
+      - q: "Let me see."
+        a: "بگذار ببینم."
+        labels: ["عبارت"]
+        rel:
+          - ["let me see", "بگذار ببینم", "عبارت - فکر کردن"]
+
+      - type: input
+        q: "ترجمه کنید: می‌فهمم منظورت چیست."
+        a: "I see what you mean."
+        labels: ["فهمیدن"]
+
+  - title: "To hear"
+    explanation: |
+      **To hear** به معنی **شنیدن** است:
+      - ادراک شنوایی
+      - خبردار شدن
+      - hear about = درباره چیزی شنیدن
+      - hear from = از کسی خبر داشتن
+
+      **صرف**:
+      - I hear, you hear, he/she/it **hears**, we hear, they hear
+      - **گذشته**: heard
+
+      **تفاوت**: hear = شنیدن (غیرارادی)، listen = گوش دادن (ارادی)
+    examples:
+      - q: "Can you hear me?"
+        a: "آیا صدای مرا می‌شنوی؟"
+        labels: ["سوال"]
+        rel:
+          - ["hear", "شنیدن", "to hear"]
+          - ["me", "مرا", "ضمیر"]
+
+      - q: "I hear music from next door."
+        a: "صدای موسیقی را از همسایه می‌شنوم."
+        labels: ["ادراک"]
+        rel:
+          - ["hear", "می‌شنوم", "to hear - من می‌شنوم"]
+          - ["music", "موسیقی", "اسم"]
+          - ["next door", "همسایه", "مکان"]
+
+      - q: "Have you heard the news?"
+        a: "آیا خبرها را شنیده‌ای؟"
+        labels: ["سوال", "ماضی نقلی"]
+        rel:
+          - ["heard", "شنیده", "to hear - اسم مفعول"]
+          - ["news", "خبرها/اخبار", "اسم"]
+
+      - q: "She heard a strange noise."
+        a: "او صدای عجیبی شنید."
+        labels: ["گذشته"]
+        rel:
+          - ["heard", "شنید", "to hear - گذشته"]
+          - ["strange", "عجیب", "صفت"]
+          - ["noise", "صدا/سر و صدا", "اسم"]
+
+      - q: "I haven't heard from him in weeks."
+        a: "هفته‌هاست از او خبری ندارم."
+        labels: ["ماضی نقلی", "منفی"]
+        rel:
+          - ["haven't heard from", "خبر نداشتن از", "عبارت"]
+          - ["in weeks", "هفته‌ها", "قید زمان"]
+
+      - type: select
+        q: "کدام کلمه مناسب است؟ 'Have you ___ the news?'"
+        options:
+          - text: "heared"
+          - text: "heard"
+            correct: true
+          - text: "hear"
+        labels: ["ماضی نقلی", "صورت گذشته"]
+
+  - title: "To know"
+    explanation: |
+      **To know** به معنی **دانستن/شناختن** است:
+      - دانستن (حقایق): I know the answer
+      - شناختن (افراد، مکان‌ها): I know him
+      - بلد بودن (مهارت): I know how to swim
+
+      **صرف**:
+      - I know, you know, he/she/it **knows**, we know, they know
+      - **گذشته**: knew
+      - **اسم مفعول**: known
+
+      **توجه**: در فارسی «دانستن» و «شناختن» متفاوت‌اند — در انگلیسی هر دو **know** هستند!
+    examples:
+      - q: "I know the answer."
+        a: "من جواب را می‌دانم."
+        labels: ["دانستن"]
+        rel:
+          - ["know", "می‌دانم", "to know - دانستن"]
+          - ["answer", "جواب", "اسم"]
+
+      - q: "Do you know her?"
+        a: "آیا او را می‌شناسی؟"
+        labels: ["سوال", "شناختن"]
+        rel:
+          - ["know", "شناختن", "to know - شناختن"]
+          - ["her", "او را", "ضمیر"]
+
+      - q: "He knows how to cook."
+        a: "او بلد است آشپزی کند."
+        labels: ["مهارت"]
+        rel:
+          - ["knows how to", "بلد است", "عبارت - مهارت"]
+          - ["cook", "آشپزی کردن", "فعل"]
+
+      - q: "I don't know where she is."
+        a: "نمی‌دانم او کجاست."
+        labels: ["منفی"]
+        rel:
+          - ["don't know", "نمی‌دانم", "منفی"]
+          - ["where", "کجا", "کلمه پرسشی"]
+
+      - q: "She knows Berlin very well."
+        a: "او برلین را خیلی خوب می‌شناسد."
+        labels: ["شناختن", "مکان"]
+        rel:
+          - ["knows", "می‌شناسد", "to know - شناختن"]
+          - ["very well", "خیلی خوب", "قید"]
+
+      - q: "You know what I mean."
+        a: "تو می‌دانی منظورم چیست."
+        labels: ["عبارت"]
+        rel:
+          - ["know", "می‌دانی", "to know - دانستن"]
+          - ["what I mean", "منظورم چیست", "جمله فرعی"]
+
+      - q: "As far as I know, he's in London."
+        a: "تا جایی که من می‌دانم، او در لندن است."
+        labels: ["عبارت"]
+        rel:
+          - ["as far as I know", "تا جایی که می‌دانم", "اصطلاح"]
+          - ["London", "لندن", "مکان - شهر"]
+
+      - type: input
+        q: "ترجمه کنید: آیا او را می‌شناسی؟"
+        a: "Do you know her?"
+        labels: ["سوال", "شناختن"]
