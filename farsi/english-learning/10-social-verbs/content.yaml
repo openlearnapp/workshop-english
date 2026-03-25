@@ -1,0 +1,255 @@
+version: 2
+number: 10
+title: "افعال اجتماعی - دادن، گرفتن، کمک کردن"
+description: "افعال to give، to take و to help با مثال‌ها"
+sections:
+  - title: "To give"
+    explanation: |
+      **To give** به معنی **دادن** است:
+      - چیزی تحویل دادن
+      - هدیه دادن
+      - اطلاعات دادن
+
+      **صرف**:
+      - I give, you give, he/she/it **gives**, we give, they give
+      - **گذشته**: gave
+      - **اسم مفعول**: given
+
+      **ساختار**: give + شخص + چیز (give me the book)
+      یا: give + چیز + to + شخص (give the book to me)
+    examples:
+      - q: "Give me the book, please."
+        a: "لطفاً کتاب را به من بده."
+        labels: ["امری"]
+        rel:
+          - ["give", "بده", "to give - امری"]
+          - ["book", "کتاب", "اسم"]
+
+      - q: "She gives her mother flowers every Sunday."
+        a: "او هر یکشنبه به مادرش گل می‌دهد."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["gives", "می‌دهد", "to give - او می‌دهد"]
+          - ["mother", "مادر", "اسم - خانواده"]
+          - ["flowers", "گل‌ها", "اسم - طبیعت"]
+
+      - q: "He gave me good advice."
+        a: "او نصیحت خوبی به من کرد."
+        labels: ["گذشته"]
+        rel:
+          - ["gave", "داد", "to give - گذشته"]
+          - ["advice", "نصیحت/توصیه", "اسم"]
+
+      - q: "Can you give me a hand?"
+        a: "آیا می‌توانی به من کمک کنی؟"
+        labels: ["سوال", "عبارت"]
+        rel:
+          - ["give me a hand", "کمک کردن", "اصطلاح"]
+
+      - q: "I'll give you a call later."
+        a: "بعداً به تو زنگ می‌زنم."
+        labels: ["عبارت", "آینده"]
+        rel:
+          - ["give you a call", "زنگ زدن", "اصطلاح"]
+          - ["later", "بعداً", "قید زمان"]
+
+      - q: "Don't give up!"
+        a: "تسلیم نشو!"
+        labels: ["امری", "عبارت"]
+        rel:
+          - ["give up", "تسلیم شدن", "فعل عبارتی"]
+
+      - type: input
+        q: "ترجمه کنید: تسلیم نشو!"
+        a: "Don't give up!"
+        labels: ["ترجمه", "فعل عبارتی"]
+        rel:
+          - ["give up", "تسلیم شدن", "فعل عبارتی"]
+
+  - title: "To take"
+    explanation: |
+      **To take** به معنی **گرفتن/بردن** است:
+      - چیزی گرفتن/بردن
+      - زمان بردن (it takes time)
+      - وسیله نقلیه سوار شدن (take the bus)
+
+      **صرف**:
+      - I take, you take, he/she/it **takes**, we take, they take
+      - **گذشته**: took
+      - **اسم مفعول**: taken
+
+      **عبارات رایج**:
+      - take a photo = عکس گرفتن
+      - take a break = استراحت کردن
+      - take care = مراقب باش
+      - it takes = طول می‌کشد
+    examples:
+      - q: "Take your umbrella, it's going to rain."
+        a: "چترت را ببر، باران خواهد بارید."
+        labels: ["امری"]
+        rel:
+          - ["take", "ببر", "to take - امری"]
+          - ["umbrella", "چتر", "اسم"]
+          - ["rain", "باران باریدن", "فعل - آب و هوا"]
+
+      - q: "She takes the bus to work."
+        a: "او با اتوبوس به سر کار می‌رود."
+        labels: ["حال ساده", "حمل و نقل"]
+        rel:
+          - ["takes", "سوار می‌شود", "to take - او می‌گیرد"]
+          - ["bus", "اتوبوس", "اسم - حمل و نقل"]
+
+      - q: "It takes thirty minutes to get there."
+        a: "سی دقیقه طول می‌کشد تا به آنجا برسیم."
+        labels: ["عبارت", "مدت"]
+        rel:
+          - ["it takes", "طول می‌کشد", "عبارت - مدت"]
+          - ["thirty minutes", "سی دقیقه", "قید زمان"]
+
+      - q: "Can I take a photo?"
+        a: "آیا می‌توانم عکس بگیرم؟"
+        labels: ["سوال", "عبارت"]
+        rel:
+          - ["take a photo", "عکس گرفتن", "عبارت"]
+
+      - q: "Let's take a break."
+        a: "بیا استراحت کنیم."
+        labels: ["عبارت"]
+        rel:
+          - ["take a break", "استراحت کردن", "عبارت"]
+          - ["break", "استراحت", "اسم"]
+
+      - q: "He took my advice."
+        a: "او نصیحت مرا قبول کرد."
+        labels: ["گذشته"]
+        rel:
+          - ["took", "گرفت/قبول کرد", "to take - گذشته"]
+          - ["advice", "نصیحت", "اسم"]
+
+      - q: "Take care!"
+        a: "مراقب خودت باش!"
+        labels: ["عبارت", "خداحافظی"]
+        rel:
+          - ["take care", "مراقب باش", "اصطلاح"]
+
+      - type: select
+        q: "'It takes 30 minutes' به چه معنی است؟"
+        options:
+          - text: "سی دقیقه می‌گیرد"
+          - text: "سی دقیقه نیاز دارد"
+          - text: "سی دقیقه طول می‌کشد"
+            correct: true
+        labels: ["معنی", "عبارت"]
+
+  - title: "To help"
+    explanation: |
+      **To help** به معنی **کمک کردن** است:
+      - حمایت کردن
+      - یاری رساندن
+
+      **صرف**:
+      - I help, you help, he/she/it **helps**, we help, they help
+      - **گذشته**: helped
+
+      **ساختارها**:
+      - help + شخص + فعل (help me carry this)
+      - help + شخص + with (help me with my homework)
+      - can't help = نمی‌توانم جلوی خودم را بگیرم
+    examples:
+      - q: "Can you help me?"
+        a: "آیا می‌توانی به من کمک کنی؟"
+        labels: ["سوال"]
+        rel:
+          - ["help", "کمک کردن", "to help"]
+          - ["me", "من", "ضمیر"]
+
+      - q: "She helps her children with homework."
+        a: "او به فرزندانش در تکالیف کمک می‌کند."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["helps", "کمک می‌کند", "to help - او کمک می‌کند"]
+          - ["children", "فرزندان", "اسم - خانواده"]
+          - ["homework", "تکالیف", "اسم - مدرسه"]
+
+      - q: "He helped me carry the boxes."
+        a: "او به من کمک کرد جعبه‌ها را حمل کنم."
+        labels: ["گذشته"]
+        rel:
+          - ["helped", "کمک کرد", "to help - گذشته"]
+          - ["carry", "حمل کردن", "فعل"]
+          - ["boxes", "جعبه‌ها", "اسم"]
+
+      - q: "I can't help it."
+        a: "دست خودم نیست."
+        labels: ["عبارت"]
+        rel:
+          - ["can't help it", "دست خودم نیست", "اصطلاح"]
+
+      - q: "Let me help you with that."
+        a: "بگذار در این مورد کمکت کنم."
+        labels: ["پیشنهاد"]
+        rel:
+          - ["let me help", "بگذار کمک کنم", "پیشنهاد"]
+          - ["with that", "در این مورد", "عبارت"]
+
+      - q: "Thank you for helping me."
+        a: "ممنون که به من کمک کردی."
+        labels: ["تشکر"]
+        rel:
+          - ["thank you for", "ممنون بابت", "عبارت - تشکر"]
+          - ["helping", "کمک کردن", "to help - اسم مصدر"]
+
+      - type: input
+        q: "ترجمه کنید: آیا می‌توانی به من کمک کنی؟"
+        a: "Can you help me?"
+        labels: ["ترجمه", "سوال"]
+        rel:
+          - ["help", "کمک کردن", "to help"]
+
+  - title: "عبارات با Give، Take، Help"
+    explanation: |
+      **اصطلاحات رایج**:
+      - give it a try = امتحانش کن
+      - take it easy = آرام باش
+      - help yourself = بفرمایید (خودتان بردارید)
+      - give and take = مصالحه / داد و ستد
+    examples:
+      - q: "Give it a try!"
+        a: "امتحانش کن!"
+        labels: ["اصطلاح"]
+        rel:
+          - ["give it a try", "امتحان کردن", "اصطلاح"]
+
+      - q: "Take it easy!"
+        a: "آرام باش! / استرس نداشته باش!"
+        labels: ["اصطلاح"]
+        rel:
+          - ["take it easy", "آرام باش", "اصطلاح"]
+
+      - q: "Help yourself to some cake."
+        a: "بفرمایید کیک بردارید."
+        labels: ["اصطلاح", "پیشنهاد"]
+        rel:
+          - ["help yourself", "بفرمایید", "اصطلاح"]
+          - ["cake", "کیک", "اسم - غذا"]
+
+      - q: "A good relationship is about give and take."
+        a: "یک رابطه خوب بر اساس داد و ستد است."
+        labels: ["اصطلاح"]
+        rel:
+          - ["give and take", "داد و ستد", "اصطلاح"]
+          - ["relationship", "رابطه", "اسم"]
+
+      - q: "I can't help laughing."
+        a: "نمی‌توانم جلوی خنده‌ام را بگیرم."
+        labels: ["عبارت"]
+        rel:
+          - ["can't help laughing", "نمی‌توانم جلوی خنده‌ام را بگیرم", "عبارت"]
+          - ["laughing", "خندیدن", "فعل - اسم مصدر"]
+
+      - type: input
+        q: "ترجمه کنید: آرام باش!"
+        a: "Take it easy!"
+        labels: ["ترجمه", "اصطلاح"]
+        rel:
+          - ["take it easy", "آرام باش", "اصطلاح"]

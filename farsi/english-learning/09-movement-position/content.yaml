@@ -1,0 +1,201 @@
+version: 2
+number: 9
+title: "حرکت و موقعیت - نشستن، ایستادن، راه رفتن"
+description: "افعال to sit، to stand و to walk/run با مثال‌ها"
+sections:
+  - title: "To sit"
+    explanation: |
+      **To sit** به معنی **نشستن** است:
+      - نشستن (sit down)
+      - نشسته بودن (در یک مکان)
+      - اغلب با حروف اضافه (on, in, at)
+
+      **صرف**:
+      - I sit, you sit, he/she/it **sits**, we sit, they sit
+      - **گذشته**: sat
+
+      **عبارات مهم**:
+      - sit down = بنشین
+      - sit up = صاف بنشین
+      - sit next to = کنار کسی نشستن
+    examples:
+      - q: "Please sit down."
+        a: "لطفاً بنشینید."
+        labels: ["امری", "مودبانه"]
+        rel:
+          - ["sit down", "نشستن", "فعل عبارتی"]
+          - ["please", "لطفاً", "کلمه مودبانه"]
+
+      - q: "She sits next to me in class."
+        a: "او در کلاس کنار من می‌نشیند."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["sits", "می‌نشیند", "to sit - او می‌نشیند"]
+          - ["next to", "کنار", "حرف اضافه"]
+          - ["in class", "در کلاس", "مکان"]
+
+      - q: "We sat in the garden all afternoon."
+        a: "ما تمام بعدازظهر در باغ نشستیم."
+        labels: ["گذشته"]
+        rel:
+          - ["sat", "نشستیم", "to sit - گذشته"]
+          - ["garden", "باغ", "اسم"]
+          - ["all afternoon", "تمام بعدازظهر", "قید زمان"]
+
+      - q: "Don't sit on the table!"
+        a: "روی میز ننشین!"
+        labels: ["امری", "منفی"]
+        rel:
+          - ["don't sit", "ننشین", "منفی"]
+          - ["on", "روی", "حرف اضافه"]
+          - ["table", "میز", "اسم - مبلمان"]
+
+      - q: "I like sitting by the window."
+        a: "دوست دارم کنار پنجره بنشینم."
+        labels: ["اسم مصدر"]
+        rel:
+          - ["sitting", "نشستن", "to sit - اسم مصدر"]
+          - ["by the window", "کنار پنجره", "مکان"]
+
+      - type: input
+        q: "ترجمه کنید: لطفاً بنشینید."
+        a: ["Please sit down.", "Sit down, please."]
+        labels: ["ترجمه", "مودبانه"]
+        rel:
+          - ["sit down", "نشستن", "فعل عبارتی"]
+
+  - title: "To stand"
+    explanation: |
+      **To stand** به معنی **ایستادن** است:
+      - صاف ایستادن
+      - بلند شدن (stand up)
+      - تحمل کردن (I can't stand it)
+
+      **صرف**:
+      - I stand, you stand, he/she/it **stands**, we stand, they stand
+      - **گذشته**: stood
+
+      **عبارات مهم**:
+      - stand up = بلند شدن
+      - stand in line = در صف ایستادن
+      - can't stand = تحمل نکردن
+    examples:
+      - q: "Please stand up."
+        a: "لطفاً بلند شوید."
+        labels: ["امری", "مودبانه"]
+        rel:
+          - ["stand up", "بلند شدن", "فعل عبارتی"]
+
+      - q: "He stands at the bus stop every morning."
+        a: "او هر صبح در ایستگاه اتوبوس می‌ایستد."
+        labels: ["حال ساده", "روتین"]
+        rel:
+          - ["stands", "می‌ایستد", "to stand - او می‌ایستد"]
+          - ["bus stop", "ایستگاه اتوبوس", "اسم - حمل و نقل"]
+
+      - q: "We stood in line for an hour."
+        a: "ما یک ساعت در صف ایستادیم."
+        labels: ["گذشته"]
+        rel:
+          - ["stood", "ایستادیم", "to stand - گذشته"]
+          - ["in line", "در صف", "عبارت"]
+          - ["for an hour", "یک ساعت", "قید زمان"]
+
+      - q: "I can't stand the noise."
+        a: "نمی‌توانم سر و صدا را تحمل کنم."
+        labels: ["عبارت", "منفی"]
+        rel:
+          - ["can't stand", "نمی‌توانم تحمل کنم", "عبارت"]
+          - ["noise", "سر و صدا", "اسم"]
+
+      - q: "She was standing in the rain."
+        a: "او زیر باران ایستاده بود."
+        labels: ["استمراری"]
+        rel:
+          - ["was standing", "ایستاده بود", "گذشته استمراری"]
+          - ["in the rain", "زیر باران", "مکان - آب و هوا"]
+          - ["rain", "باران", "اسم - آب و هوا"]
+
+      - type: select
+        q: "'I can't stand the noise' به چه معنی است؟"
+        options:
+          - text: "نمی‌توانم در سر و صدا بایستم"
+          - text: "نمی‌توانم سر و صدا را تحمل کنم"
+            correct: true
+          - text: "کنار سر و صدا ایستاده‌ام"
+        labels: ["معنی", "عبارت"]
+
+  - title: "To walk / To run"
+    explanation: |
+      **To walk** به معنی **راه رفتن/پیاده رفتن** (آهسته):
+      - پیاده رفتن
+      - قدم زدن
+      - سگ را به گردش بردن (walk the dog)
+
+      **To run** به معنی **دویدن** (سریع):
+      - سریع دویدن
+      - دو زدن
+      - اداره کردن (run a business)
+
+      **صرف**:
+      - walk: walked (گذشته)
+      - run: ran (گذشته)، run (اسم مفعول)
+    examples:
+      - q: "I walk to work every day."
+        a: "من هر روز پیاده به سر کار می‌روم."
+        labels: ["حال ساده", "to walk"]
+        rel:
+          - ["walk", "پیاده رفتن", "to walk"]
+          - ["to work", "به سر کار", "مکان"]
+
+      - q: "She walks her dog in the park."
+        a: "او سگش را در پارک به گردش می‌برد."
+        labels: ["حال ساده", "to walk"]
+        rel:
+          - ["walks her dog", "سگش را به گردش می‌برد", "عبارت"]
+          - ["dog", "سگ", "اسم - حیوان"]
+          - ["park", "پارک", "اسم - مکان"]
+
+      - q: "Let's go for a walk."
+        a: "بیا برویم قدم بزنیم."
+        labels: ["عبارت", "to walk"]
+        rel:
+          - ["go for a walk", "قدم زدن رفتن", "عبارت"]
+
+      - q: "He runs five kilometers every morning."
+        a: "او هر صبح پنج کیلومتر می‌دود."
+        labels: ["حال ساده", "to run"]
+        rel:
+          - ["runs", "می‌دود", "to run - او می‌دود"]
+          - ["five kilometers", "پنج کیلومتر", "مسافت"]
+
+      - q: "The children ran across the street."
+        a: "بچه‌ها از خیابان دویدند."
+        labels: ["گذشته", "to run"]
+        rel:
+          - ["ran", "دویدند", "to run - گذشته"]
+          - ["across", "از عرض", "حرف اضافه"]
+          - ["street", "خیابان", "اسم"]
+
+      - q: "Don't run in the hallway!"
+        a: "در راهرو ندو!"
+        labels: ["امری", "منفی", "to run"]
+        rel:
+          - ["don't run", "ندو", "منفی"]
+          - ["hallway", "راهرو", "اسم - ساختمان"]
+
+      - q: "She runs a small business."
+        a: "او یک کسب و کار کوچک اداره می‌کند."
+        labels: ["to run", "معنی مجازی"]
+        rel:
+          - ["runs", "اداره می‌کند", "to run - اداره کردن"]
+          - ["small", "کوچک", "صفت"]
+          - ["business", "کسب و کار", "اسم"]
+
+      - type: input
+        q: "ترجمه کنید: او یک کسب و کار کوچک اداره می‌کند."
+        a: "She runs a small business."
+        labels: ["ترجمه", "معنی مجازی"]
+        rel:
+          - ["runs", "اداره می‌کند", "to run - اداره کردن"]
+          - ["business", "کسب و کار", "اسم"]

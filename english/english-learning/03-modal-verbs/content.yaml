@@ -1,0 +1,244 @@
+version: 2
+number: 3
+title: "Modal Verbs - Can, Must, Should"
+description: "The modal verbs can, must, and should with examples"
+sections:
+  - title: "Can"
+    explanation: |
+      **Can** means **können** (ability, permission):
+      - Ability (I can swim)
+      - Permission (Can I go?)
+      - Possibility (It can be cold in winter)
+
+      **Special features**:
+      - No **-s** in the 3rd person: he **can** (not ~~cans~~)
+      - No **to**: I can **swim** (not ~~to swim~~)
+      - Negation: **cannot** or **can't**
+    examples:
+      - q: "I can speak English."
+        a: "Ich kann Englisch sprechen."
+        labels: ["Ability"]
+        rel:
+          - ["can", "kann", "Modal verb - ability"]
+          - ["speak", "sprechen", "Verb"]
+          - ["English", "Englisch", "Language"]
+
+      - q: "She can play the piano."
+        a: "Sie kann Klavier spielen."
+        labels: ["Ability", "3rd Person Singular"]
+        rel:
+          - ["can", "kann", "Modal verb"]
+          - ["play", "spielen", "Verb"]
+          - ["piano", "Klavier", "Noun - music"]
+
+      - q: "Can you help me?"
+        a: "Kannst du mir helfen?"
+        labels: ["Question", "Request"]
+        rel:
+          - ["can you", "kannst du", "Question with can"]
+          - ["help", "helfen", "Verb"]
+
+      - q: "We can't go today."
+        a: "Wir können heute nicht gehen."
+        labels: ["Negation"]
+        rel:
+          - ["can't", "können nicht", "Negation of can"]
+          - ["today", "heute", "Time expression"]
+
+      - q: "Can I open the window?"
+        a: "Kann ich das Fenster öffnen?"
+        labels: ["Question", "Permission"]
+        rel:
+          - ["can I", "kann ich", "Question - permission"]
+          - ["open", "öffnen", "Verb"]
+          - ["window", "Fenster", "Noun"]
+
+      - q: "He can run very fast."
+        a: "Er kann sehr schnell laufen."
+        labels: ["Ability"]
+        rel:
+          - ["run", "laufen", "Verb - movement"]
+          - ["very", "sehr", "Adverb"]
+          - ["fast", "schnell", "Adverb"]
+
+      - type: input
+        q: "Translate: I can swim."
+        a: "I can swim."
+        labels: ["Ability"]
+
+  - title: "Must"
+    explanation: |
+      **Must** means **müssen** (obligation):
+      - Duty, necessity
+      - Strong recommendation
+      - Logical conclusion
+
+      **Special features**:
+      - No **-s** in the 3rd person: he **must** (not ~~musts~~)
+      - Negation: **must not** / **mustn't** = not allowed!
+      - **Must not ≠ don't have to**: must not = prohibition, don't have to = not necessary
+    examples:
+      - q: "I must finish this today."
+        a: "Ich muss das heute fertigmachen."
+        labels: ["Obligation"]
+        rel:
+          - ["must", "muss", "Modal verb - obligation"]
+          - ["finish", "fertigmachen", "Verb"]
+
+      - q: "You must wear a seatbelt."
+        a: "Du musst einen Sicherheitsgurt tragen."
+        labels: ["Obligation", "Rule"]
+        rel:
+          - ["must", "muss", "Modal verb"]
+          - ["wear", "tragen", "Verb - clothing"]
+          - ["seatbelt", "Sicherheitsgurt", "Noun"]
+
+      - q: "She must be at home."
+        a: "Sie muss zu Hause sein."
+        labels: ["Conclusion"]
+        rel:
+          - ["must be", "muss sein", "Logical conclusion"]
+          - ["at home", "zu Hause", "Place"]
+
+      - q: "You mustn't park here."
+        a: "Du darfst hier nicht parken."
+        labels: ["Prohibition"]
+        rel:
+          - ["mustn't", "darfst nicht", "Prohibition"]
+          - ["park", "parken", "Verb"]
+          - ["here", "hier", "Place"]
+
+      - q: "We must hurry!"
+        a: "Wir müssen uns beeilen!"
+        labels: ["Urgency"]
+        rel:
+          - ["must", "müssen", "Modal verb"]
+          - ["hurry", "sich beeilen", "Verb"]
+
+      - q: "You don't have to come."
+        a: "Du musst nicht kommen."
+        labels: ["No obligation"]
+        rel:
+          - ["don't have to", "muss nicht", "No necessity"]
+          - ["come", "kommen", "Verb"]
+
+      - type: select
+        q: "'You ___ park here' (prohibition)"
+        options:
+          - text: "must not"
+            correct: true
+          - text: "don't have to"
+          - text: "should not"
+        labels: ["Prohibition", "must not"]
+
+  - title: "Should"
+    explanation: |
+      **Should** means **sollte(n)** (advice):
+      - Giving advice
+      - Recommendations
+      - Expectations
+
+      **Special features**:
+      - No **-s** in the 3rd person: he **should**
+      - Negation: **should not** / **shouldn't**
+      - Weaker than **must** (recommendation, not obligation)
+    examples:
+      - q: "You should see a doctor."
+        a: "Du solltest zum Arzt gehen."
+        labels: ["Advice"]
+        rel:
+          - ["should", "sollte", "Modal verb - advice"]
+          - ["see a doctor", "zum Arzt gehen", "Expression"]
+          - ["doctor", "Arzt", "Noun - profession"]
+
+      - q: "She should study more."
+        a: "Sie sollte mehr lernen."
+        labels: ["Recommendation"]
+        rel:
+          - ["should", "sollte", "Modal verb"]
+          - ["study", "lernen/studieren", "Verb"]
+          - ["more", "mehr", "Adverb"]
+
+      - q: "We should leave now."
+        a: "Wir sollten jetzt gehen."
+        labels: ["Recommendation"]
+        rel:
+          - ["should", "sollten", "Modal verb"]
+          - ["leave", "gehen/abfahren", "Verb"]
+          - ["now", "jetzt", "Time expression"]
+
+      - q: "You shouldn't eat so much sugar."
+        a: "Du solltest nicht so viel Zucker essen."
+        labels: ["Advice", "Negation"]
+        rel:
+          - ["shouldn't", "solltest nicht", "Negation"]
+          - ["eat", "essen", "Verb"]
+          - ["sugar", "Zucker", "Noun - food"]
+
+      - q: "Should I call you later?"
+        a: "Soll ich dich später anrufen?"
+        labels: ["Question", "Offer"]
+        rel:
+          - ["should I", "soll ich", "Question with should"]
+          - ["call", "anrufen", "Verb"]
+          - ["later", "später", "Time expression"]
+
+      - q: "He should be here by now."
+        a: "Er sollte inzwischen hier sein."
+        labels: ["Expectation"]
+        rel:
+          - ["should be", "sollte sein", "Expectation"]
+          - ["by now", "inzwischen", "Time expression"]
+
+      - type: input
+        q: "Translate: You should study more."
+        a: "You should study more."
+        labels: ["Recommendation"]
+
+  - title: "Can vs Must vs Should"
+    explanation: |
+      **Comparison of modal verbs**:
+      - **Can**: Ability, permission
+      - **Must**: Duty, necessity
+      - **Should**: Recommendation, advice
+
+      **Strength**: must > should > can
+    examples:
+      - q: "You can park here."
+        a: "Du kannst hier parken. (Es ist erlaubt.)"
+        labels: ["can", "Permission"]
+        rel:
+          - ["can", "können/dürfen", "Permission"]
+
+      - q: "You should park over there."
+        a: "Du solltest dort drüben parken. (Es wäre besser.)"
+        labels: ["should", "Recommendation"]
+        rel:
+          - ["should", "sollte", "Recommendation"]
+          - ["over there", "dort drüben", "Place"]
+
+      - q: "You must park in the garage."
+        a: "Du musst in der Garage parken. (Es ist Pflicht.)"
+        labels: ["must", "Obligation"]
+        rel:
+          - ["must", "muss", "Obligation"]
+          - ["garage", "Garage", "Noun"]
+
+      - q: "Can you swim? — Yes, but I shouldn't swim today."
+        a: "Kannst du schwimmen? — Ja, aber ich sollte heute nicht schwimmen."
+        labels: ["can + should", "Combination"]
+        rel:
+          - ["can", "können", "Ability"]
+          - ["shouldn't", "sollte nicht", "Recommendation"]
+          - ["swim", "schwimmen", "Verb - sports"]
+
+      - type: multiple-choice
+        q: "Which sentences express an obligation?"
+        options:
+          - text: "You must wear a seatbelt."
+            correct: true
+          - text: "You can park here."
+          - text: "You should see a doctor."
+          - text: "You must finish this today."
+            correct: true
+        labels: ["must", "Obligation"]

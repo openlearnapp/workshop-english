@@ -1,0 +1,8 @@
+workshops:
+  - folder: english-learning
+    code: en-US
+    title: یادگیری انگلیسی
+    description: ۱۰ درس درباره ۳۰ فعل مهم انگلیسی و صرف آن‌ها
+    color: "220 45% 93%"
+    primaryColor: "220 75% 45%"
+    image: "english-learning/thumbnail.svg"

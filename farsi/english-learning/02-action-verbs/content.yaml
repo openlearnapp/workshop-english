@@ -1,0 +1,250 @@
+version: 2
+number: 2
+title: "افعال حرکتی - رفتن، آمدن، انجام دادن"
+description: "افعال to go، to come و to do/make با مثال‌ها"
+sections:
+  - title: "To go"
+    explanation: |
+      **To go** به معنی **رفتن** است:
+      - حرکت از یک مکان به مکان دیگر
+      - برنامه‌های آینده (going to + مصدر)
+      - اغلب با حروف اضافه (to, into, out)
+
+      **صرف زمان حال**:
+      - I go (من می‌روم)
+      - you go (تو می‌روی)
+      - he/she/it goes (او می‌رود)
+      - we go (ما می‌رویم)
+      - they go (آن‌ها می‌روند)
+
+      **توجه**: سوم شخص مفرد: go**es** (نه فقط -s!)
+    examples:
+      - q: "I go to school every day."
+        a: "من هر روز به مدرسه می‌روم."
+        labels: ["حال ساده", "اول شخص مفرد"]
+        rel:
+          - ["go", "می‌روم", "to go - من می‌روم"]
+          - ["to school", "به مدرسه", "مکان - تحصیل"]
+          - ["every day", "هر روز", "قید زمان"]
+
+      - q: "She goes to work by bus."
+        a: "او با اتوبوس به سر کار می‌رود."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["goes", "می‌رود", "to go - او می‌رود"]
+          - ["to work", "به سر کار", "مکان - کار"]
+          - ["by bus", "با اتوبوس", "وسیله نقلیه"]
+
+      - q: "We go shopping on Saturdays."
+        a: "ما شنبه‌ها به خرید می‌رویم."
+        labels: ["حال ساده", "اول شخص جمع"]
+        rel:
+          - ["go shopping", "به خرید رفتن", "عبارت"]
+          - ["on Saturdays", "شنبه‌ها", "قید زمان"]
+
+      - q: "They go to the cinema tonight."
+        a: "آن‌ها امشب به سینما می‌روند."
+        labels: ["حال ساده", "سوم شخص جمع"]
+        rel:
+          - ["go", "می‌روند", "to go - آن‌ها می‌روند"]
+          - ["cinema", "سینما", "اسم - سرگرمی"]
+          - ["tonight", "امشب", "قید زمان"]
+
+      - q: "Do you go to the gym?"
+        a: "آیا به باشگاه می‌روی؟"
+        labels: ["سوال"]
+        rel:
+          - ["do you go", "آیا می‌روی", "سوال با do"]
+          - ["gym", "باشگاه", "اسم - ورزش"]
+
+      - q: "Let's go home."
+        a: "بیا برویم خانه."
+        labels: ["امری"]
+        rel:
+          - ["let's go", "بیا برویم", "پیشنهاد"]
+          - ["home", "خانه", "مکان"]
+
+      - type: input
+        q: "ترجمه کنید: او به مدرسه می‌رود."
+        a: "She goes to school."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+
+  - title: "To come"
+    explanation: |
+      **To come** به معنی **آمدن** است:
+      - حرکت به سمت گوینده
+      - مبدا (come from)
+      - اغلب مخالف "to go"
+
+      **صرف زمان حال**:
+      - I come (من می‌آیم)
+      - you come (تو می‌آیی)
+      - he/she/it comes (او می‌آید)
+      - we come (ما می‌آییم)
+      - they come (آن‌ها می‌آیند)
+    examples:
+      - q: "I come from Germany."
+        a: "من از آلمان می‌آیم."
+        labels: ["حال ساده", "مبدا"]
+        rel:
+          - ["come from", "آمدن از", "عبارت - مبدا"]
+          - ["Germany", "آلمان", "کشور"]
+
+      - q: "She comes home at six."
+        a: "او ساعت شش به خانه می‌آید."
+        labels: ["حال ساده", "سوم شخص مفرد"]
+        rel:
+          - ["comes", "می‌آید", "to come - او می‌آید"]
+          - ["at six", "ساعت شش", "ساعت"]
+          - ["home", "خانه", "مکان"]
+
+      - q: "Can you come to my party?"
+        a: "آیا می‌توانی به مهمانی من بیایی؟"
+        labels: ["سوال", "دعوت"]
+        rel:
+          - ["can you come", "آیا می‌توانی بیایی", "سوال"]
+          - ["party", "مهمانی", "اسم"]
+
+      - q: "They come here every summer."
+        a: "آن‌ها هر تابستان به اینجا می‌آیند."
+        labels: ["حال ساده", "سوم شخص جمع"]
+        rel:
+          - ["come", "می‌آیند", "to come - آن‌ها می‌آیند"]
+          - ["here", "اینجا", "مکان"]
+          - ["every summer", "هر تابستان", "قید زمان"]
+
+      - q: "Come in, please!"
+        a: "لطفاً بیایید داخل!"
+        labels: ["امری", "مودبانه"]
+        rel:
+          - ["come in", "بیا داخل", "فعل عبارتی"]
+          - ["please", "لطفاً", "کلمه مودبانه"]
+
+      - q: "Where do you come from?"
+        a: "از کجا می‌آیی؟ / اهل کجایی؟"
+        labels: ["سوال", "مبدا"]
+        rel:
+          - ["where", "کجا", "کلمه پرسشی"]
+          - ["come from", "آمدن از", "عبارت"]
+
+      - type: input
+        q: "ترجمه کنید: از کجا می‌آیی؟"
+        a: ["Where do you come from?", "Where are you from?"]
+        labels: ["سوال", "مبدا"]
+
+  - title: "To do / To make"
+    explanation: |
+      **To do** و **to make** هر دو به معنی **انجام دادن/ساختن** هستند، اما:
+      - **To do**: فعالیت‌ها، وظایف، کار
+        - do homework, do the dishes, do exercise
+      - **To make**: ساختن، تولید کردن چیزی
+        - make breakfast, make a cake, make a decision
+
+      **صرف To do**:
+      - I do, you do, he/she/it **does**, we do, they do
+
+      **صرف To make**:
+      - I make, you make, he/she/it **makes**, we make, they make
+    examples:
+      - q: "I do my homework after school."
+        a: "من بعد از مدرسه تکالیفم را انجام می‌دهم."
+        labels: ["حال ساده", "to do"]
+        rel:
+          - ["do", "انجام می‌دهم", "to do - من انجام می‌دهم"]
+          - ["homework", "تکالیف", "اسم - مدرسه"]
+          - ["after school", "بعد از مدرسه", "قید زمان"]
+
+      - q: "She does the dishes every evening."
+        a: "او هر شب ظرف‌ها را می‌شوید."
+        labels: ["حال ساده", "to do", "سوم شخص مفرد"]
+        rel:
+          - ["does", "انجام می‌دهد", "to do - او انجام می‌دهد"]
+          - ["the dishes", "ظرف‌ها", "اسم - خانه‌داری"]
+          - ["every evening", "هر شب", "قید زمان"]
+
+      - q: "He makes breakfast for the family."
+        a: "او برای خانواده صبحانه درست می‌کند."
+        labels: ["حال ساده", "to make", "سوم شخص مفرد"]
+        rel:
+          - ["makes", "درست می‌کند", "to make - او می‌سازد"]
+          - ["breakfast", "صبحانه", "اسم - وعده غذایی"]
+          - ["family", "خانواده", "اسم"]
+
+      - q: "We make plans for the weekend."
+        a: "ما برای آخر هفته برنامه‌ریزی می‌کنیم."
+        labels: ["حال ساده", "to make"]
+        rel:
+          - ["make plans", "برنامه‌ریزی کردن", "عبارت"]
+          - ["weekend", "آخر هفته", "قید زمان"]
+
+      - q: "What do you do for a living?"
+        a: "شغل شما چیست؟"
+        labels: ["سوال", "to do"]
+        rel:
+          - ["what do you do", "چه کار می‌کنی", "سوال"]
+          - ["for a living", "برای امرار معاش", "عبارت"]
+
+      - q: "Don't make noise!"
+        a: "سر و صدا نکن!"
+        labels: ["امری", "منفی", "to make"]
+        rel:
+          - ["don't make", "نکن", "منفی - امری"]
+          - ["noise", "سر و صدا", "اسم"]
+
+      - type: select
+        q: "کدام فعل مناسب است؟ ___ breakfast"
+        options:
+          - text: "do"
+          - text: "make"
+            correct: true
+          - text: "take"
+        labels: ["to make", "همایند"]
+
+  - title: "Going to - آینده نزدیک"
+    explanation: |
+      **Going to + مصدر** برای بیان **آینده نزدیک** استفاده می‌شود:
+      - برنامه‌ها و قصدها
+      - چیزی که قصد انجامش را دارید
+
+      **ساختار**: فاعل + am/is/are + going to + فعل
+    examples:
+      - q: "I am going to cook dinner."
+        a: "من شام درست خواهم کرد."
+        labels: ["آینده", "going to"]
+        rel:
+          - ["going to cook", "خواهم پخت", "آینده"]
+          - ["dinner", "شام", "اسم - وعده غذایی"]
+
+      - q: "She is going to visit her parents."
+        a: "او به دیدن والدینش خواهد رفت."
+        labels: ["آینده", "going to"]
+        rel:
+          - ["going to visit", "خواهد رفت به دیدن", "آینده"]
+          - ["parents", "والدین", "اسم - خانواده"]
+
+      - q: "We are going to travel next month."
+        a: "ما ماه آینده سفر خواهیم کرد."
+        labels: ["آینده", "going to"]
+        rel:
+          - ["going to travel", "سفر خواهیم کرد", "آینده"]
+          - ["next month", "ماه آینده", "قید زمان"]
+
+      - q: "Are you going to come to the party?"
+        a: "آیا به مهمانی خواهی آمد؟"
+        labels: ["آینده", "سوال"]
+        rel:
+          - ["are you going to", "آیا خواهی", "سوال - آینده"]
+          - ["party", "مهمانی", "اسم"]
+
+      - q: "They are going to buy a new house."
+        a: "آن‌ها یک خانه جدید خواهند خرید."
+        labels: ["آینده", "going to"]
+        rel:
+          - ["going to buy", "خواهند خرید", "آینده"]
+          - ["new", "جدید", "صفت"]
+          - ["house", "خانه", "اسم"]
+
+      - type: input
+        q: "ترجمه کنید: من آشپزی خواهم کرد."
+        a: ["I am going to cook.", "I'm going to cook."]
+        labels: ["آینده", "going to"]

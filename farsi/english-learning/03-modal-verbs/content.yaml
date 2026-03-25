@@ -1,0 +1,244 @@
+version: 2
+number: 3
+title: "افعال کمکی - توانستن، باید، بهتر است"
+description: "افعال کمکی can، must و should با مثال‌ها"
+sections:
+  - title: "Can"
+    explanation: |
+      **Can** به معنی **توانستن** است:
+      - توانایی (I can swim)
+      - اجازه (Can I go?)
+      - امکان (It can be cold in winter)
+
+      **ویژگی‌ها**:
+      - بدون **-s** در سوم شخص: he **can** (نه ~~cans~~)
+      - بدون **to**: I can **swim** (نه ~~to swim~~)
+      - منفی: **cannot** یا **can't**
+    examples:
+      - q: "I can speak English."
+        a: "من می‌توانم انگلیسی صحبت کنم."
+        labels: ["توانایی"]
+        rel:
+          - ["can", "می‌توانم", "فعل کمکی - توانایی"]
+          - ["speak", "صحبت کردن", "فعل"]
+          - ["English", "انگلیسی", "زبان"]
+
+      - q: "She can play the piano."
+        a: "او می‌تواند پیانو بزند."
+        labels: ["توانایی", "سوم شخص مفرد"]
+        rel:
+          - ["can", "می‌تواند", "فعل کمکی"]
+          - ["play", "زدن/نواختن", "فعل"]
+          - ["piano", "پیانو", "اسم - موسیقی"]
+
+      - q: "Can you help me?"
+        a: "آیا می‌توانی به من کمک کنی؟"
+        labels: ["سوال", "درخواست"]
+        rel:
+          - ["can you", "آیا می‌توانی", "سوال با can"]
+          - ["help", "کمک کردن", "فعل"]
+
+      - q: "We can't go today."
+        a: "ما امروز نمی‌توانیم برویم."
+        labels: ["منفی"]
+        rel:
+          - ["can't", "نمی‌توانیم", "منفی can"]
+          - ["today", "امروز", "قید زمان"]
+
+      - q: "Can I open the window?"
+        a: "آیا می‌توانم پنجره را باز کنم؟"
+        labels: ["سوال", "اجازه"]
+        rel:
+          - ["can I", "آیا می‌توانم", "سوال - اجازه"]
+          - ["open", "باز کردن", "فعل"]
+          - ["window", "پنجره", "اسم"]
+
+      - q: "He can run very fast."
+        a: "او می‌تواند خیلی سریع بدود."
+        labels: ["توانایی"]
+        rel:
+          - ["run", "دویدن", "فعل - حرکت"]
+          - ["very", "خیلی", "قید"]
+          - ["fast", "سریع", "قید"]
+
+      - type: input
+        q: "ترجمه کنید: من می‌توانم شنا کنم."
+        a: "I can swim."
+        labels: ["توانایی"]
+
+  - title: "Must"
+    explanation: |
+      **Must** به معنی **باید** است:
+      - وظیفه، ضرورت
+      - توصیه قوی
+      - نتیجه‌گیری منطقی
+
+      **ویژگی‌ها**:
+      - بدون **-s** در سوم شخص: he **must** (نه ~~musts~~)
+      - منفی: **must not** / **mustn't** = نباید / ممنوع!
+      - **Must not ≠ don't have to**: must not = ممنوع، don't have to = لازم نیست
+    examples:
+      - q: "I must finish this today."
+        a: "من باید این را امروز تمام کنم."
+        labels: ["وظیفه"]
+        rel:
+          - ["must", "باید", "فعل کمکی - وظیفه"]
+          - ["finish", "تمام کردن", "فعل"]
+
+      - q: "You must wear a seatbelt."
+        a: "تو باید کمربند ایمنی ببندی."
+        labels: ["وظیفه", "قانون"]
+        rel:
+          - ["must", "باید", "فعل کمکی"]
+          - ["wear", "بستن/پوشیدن", "فعل"]
+          - ["seatbelt", "کمربند ایمنی", "اسم"]
+
+      - q: "She must be at home."
+        a: "او باید خانه باشد."
+        labels: ["نتیجه‌گیری"]
+        rel:
+          - ["must be", "باید باشد", "نتیجه‌گیری منطقی"]
+          - ["at home", "در خانه", "مکان"]
+
+      - q: "You mustn't park here."
+        a: "تو نباید اینجا پارک کنی."
+        labels: ["ممنوعیت"]
+        rel:
+          - ["mustn't", "نباید", "ممنوعیت"]
+          - ["park", "پارک کردن", "فعل"]
+          - ["here", "اینجا", "مکان"]
+
+      - q: "We must hurry!"
+        a: "ما باید عجله کنیم!"
+        labels: ["فوریت"]
+        rel:
+          - ["must", "باید", "فعل کمکی"]
+          - ["hurry", "عجله کردن", "فعل"]
+
+      - q: "You don't have to come."
+        a: "لازم نیست بیایی."
+        labels: ["بدون اجبار"]
+        rel:
+          - ["don't have to", "لازم نیست", "بدون ضرورت"]
+          - ["come", "آمدن", "فعل"]
+
+      - type: select
+        q: "'You ___ park here' (ممنوعیت)"
+        options:
+          - text: "must not"
+            correct: true
+          - text: "don't have to"
+          - text: "should not"
+        labels: ["ممنوعیت", "must not"]
+
+  - title: "Should"
+    explanation: |
+      **Should** به معنی **بهتر است / باید** (توصیه) است:
+      - نصیحت دادن
+      - توصیه‌ها
+      - انتظارات
+
+      **ویژگی‌ها**:
+      - بدون **-s** در سوم شخص: he **should**
+      - منفی: **should not** / **shouldn't**
+      - ضعیف‌تر از **must** (توصیه، نه اجبار)
+    examples:
+      - q: "You should see a doctor."
+        a: "بهتر است به دکتر بروی."
+        labels: ["نصیحت"]
+        rel:
+          - ["should", "بهتر است", "فعل کمکی - نصیحت"]
+          - ["see a doctor", "به دکتر رفتن", "عبارت"]
+          - ["doctor", "دکتر", "اسم - شغل"]
+
+      - q: "She should study more."
+        a: "او باید بیشتر درس بخواند."
+        labels: ["توصیه"]
+        rel:
+          - ["should", "بهتر است", "فعل کمکی"]
+          - ["study", "درس خواندن", "فعل"]
+          - ["more", "بیشتر", "قید"]
+
+      - q: "We should leave now."
+        a: "بهتر است الان برویم."
+        labels: ["توصیه"]
+        rel:
+          - ["should", "بهتر است", "فعل کمکی"]
+          - ["leave", "رفتن", "فعل"]
+          - ["now", "الان", "قید زمان"]
+
+      - q: "You shouldn't eat so much sugar."
+        a: "نباید اینقدر شکر بخوری."
+        labels: ["نصیحت", "منفی"]
+        rel:
+          - ["shouldn't", "نباید", "منفی"]
+          - ["eat", "خوردن", "فعل"]
+          - ["sugar", "شکر", "اسم - غذا"]
+
+      - q: "Should I call you later?"
+        a: "آیا بعداً به تو زنگ بزنم؟"
+        labels: ["سوال", "پیشنهاد"]
+        rel:
+          - ["should I", "آیا باید", "سوال با should"]
+          - ["call", "زنگ زدن", "فعل"]
+          - ["later", "بعداً", "قید زمان"]
+
+      - q: "He should be here by now."
+        a: "او باید تا الان اینجا باشد."
+        labels: ["انتظار"]
+        rel:
+          - ["should be", "باید باشد", "انتظار"]
+          - ["by now", "تا الان", "قید زمان"]
+
+      - type: input
+        q: "ترجمه کنید: بهتر است بیشتر درس بخوانی."
+        a: "You should study more."
+        labels: ["توصیه"]
+
+  - title: "Can در مقابل Must در مقابل Should"
+    explanation: |
+      **مقایسه افعال کمکی**:
+      - **Can**: توانایی، اجازه
+      - **Must**: وظیفه، ضرورت
+      - **Should**: توصیه، نصیحت
+
+      **قدرت**: must > should > can
+    examples:
+      - q: "You can park here."
+        a: "می‌توانی اینجا پارک کنی. (مجاز است.)"
+        labels: ["can", "اجازه"]
+        rel:
+          - ["can", "می‌توانی", "اجازه"]
+
+      - q: "You should park over there."
+        a: "بهتر است آن‌طرف پارک کنی. (بهتر است.)"
+        labels: ["should", "توصیه"]
+        rel:
+          - ["should", "بهتر است", "توصیه"]
+          - ["over there", "آن‌طرف", "مکان"]
+
+      - q: "You must park in the garage."
+        a: "باید در گاراژ پارک کنی. (اجباری است.)"
+        labels: ["must", "وظیفه"]
+        rel:
+          - ["must", "باید", "وظیفه"]
+          - ["garage", "گاراژ", "اسم"]
+
+      - q: "Can you swim? — Yes, but I shouldn't swim today."
+        a: "آیا می‌توانی شنا کنی؟ — بله، اما بهتر است امروز شنا نکنم."
+        labels: ["can + should", "ترکیب"]
+        rel:
+          - ["can", "می‌توانی", "توانایی"]
+          - ["shouldn't", "بهتر است نکنم", "توصیه"]
+          - ["swim", "شنا کردن", "فعل - ورزش"]
+
+      - type: multiple-choice
+        q: "کدام جملات بیانگر وظیفه هستند؟"
+        options:
+          - text: "You must wear a seatbelt."
+            correct: true
+          - text: "You can park here."
+          - text: "You should see a doctor."
+          - text: "You must finish this today."
+            correct: true
+        labels: ["must", "وظیفه"]

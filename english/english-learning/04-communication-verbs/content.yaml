@@ -1,0 +1,188 @@
+version: 2
+number: 4
+title: "Communication Verbs - Say, Tell, Speak"
+description: "The verbs to say, to tell, and to speak/talk with examples"
+sections:
+  - title: "To say"
+    explanation: |
+      **To say** means **sagen** (to utter words):
+      - Speaking words or sentences
+      - Reporting something
+      - Often used with direct or indirect speech
+
+      **Conjugation**:
+      - I say, you say, he/she/it **says**, we say, they say
+      - **Past tense**: said
+
+      **Important**: say something **to** someone (not ~~say someone~~)
+    examples:
+      - q: "She says hello every morning."
+        a: "Sie sagt jeden Morgen Hallo."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["says", "sagt", "to say - he/she says"]
+          - ["hello", "Hallo", "Greeting"]
+          - ["every morning", "jeden Morgen", "Time expression"]
+
+      - q: "What did you say?"
+        a: "Was hast du gesagt?"
+        labels: ["Question", "Past tense"]
+        rel:
+          - ["did you say", "hast du gesagt", "Question - past"]
+          - ["what", "was", "Question word"]
+
+      - q: "He said he was tired."
+        a: "Er sagte, er sei müde."
+        labels: ["Indirect speech"]
+        rel:
+          - ["said", "sagte", "to say - past tense"]
+          - ["was tired", "sei müde", "Indirect speech"]
+
+      - q: "I want to say something."
+        a: "Ich möchte etwas sagen."
+        labels: ["Expression"]
+        rel:
+          - ["want to say", "möchte sagen", "Expression"]
+          - ["something", "etwas", "Pronoun"]
+
+      - q: "They say it's going to rain."
+        a: "Man sagt, es wird regnen."
+        labels: ["General"]
+        rel:
+          - ["they say", "man sagt", "General statement"]
+          - ["rain", "regnen", "Verb - weather"]
+
+      - type: input
+        q: "Translate: What did you say?"
+        a: "What did you say?"
+        labels: ["Question", "Past tense"]
+
+  - title: "To tell"
+    explanation: |
+      **To tell** means **erzählen/sagen** (to inform):
+      - Passing on information
+      - Telling stories
+      - Giving instructions
+
+      **Important difference from say**:
+      - **tell** someone something (tell **me** the truth)
+      - **say** something to someone (say hello **to me**)
+
+      **Conjugation**:
+      - I tell, you tell, he/she/it **tells**, we tell, they tell
+      - **Past tense**: told
+    examples:
+      - q: "Tell me about your day."
+        a: "Erzähl mir von deinem Tag."
+        labels: ["Imperative"]
+        rel:
+          - ["tell me", "erzähl mir", "to tell - imperative"]
+          - ["about", "von/über", "Preposition"]
+
+      - q: "She tells funny stories."
+        a: "Sie erzählt lustige Geschichten."
+        labels: ["Simple Present", "3rd Person Singular"]
+        rel:
+          - ["tells", "erzählt", "to tell - he/she tells"]
+          - ["funny", "lustig", "Adjective"]
+          - ["stories", "Geschichten", "Noun"]
+
+      - q: "Can you tell me the way?"
+        a: "Kannst du mir den Weg sagen?"
+        labels: ["Question", "Politeness"]
+        rel:
+          - ["tell me", "mir sagen", "to tell"]
+          - ["the way", "den Weg", "Noun"]
+
+      - q: "I told him the truth."
+        a: "Ich habe ihm die Wahrheit gesagt."
+        labels: ["Past tense"]
+        rel:
+          - ["told", "sagte/erzählte", "to tell - past tense"]
+          - ["truth", "Wahrheit", "Noun"]
+
+      - q: "Don't tell anyone!"
+        a: "Sag es niemandem!"
+        labels: ["Imperative", "Negation"]
+        rel:
+          - ["don't tell", "sag nicht", "Negation"]
+          - ["anyone", "jemand/niemandem", "Pronoun"]
+
+      - q: "He told me to wait."
+        a: "Er sagte mir, ich solle warten."
+        labels: ["Instruction"]
+        rel:
+          - ["told me to", "sagte mir zu", "Instruction"]
+          - ["wait", "warten", "Verb"]
+
+      - type: select
+        q: "Which sentence is correct?"
+        options:
+          - text: "Tell me the truth."
+            correct: true
+          - text: "Say me the truth."
+        labels: ["to tell", "Sentence structure"]
+
+  - title: "To speak / To talk"
+    explanation: |
+      **To speak** and **to talk** both mean **sprechen/reden**:
+
+      **To speak** (more formal):
+      - Speaking languages (speak English)
+      - Speaking in public
+      - On the phone (May I speak to...?)
+
+      **To talk** (more informal):
+      - Having a conversation
+      - Chatting
+      - Talk **about** = talk about something
+      - Talk **to** = talk to someone
+    examples:
+      - q: "Do you speak English?"
+        a: "Sprechen Sie Englisch?"
+        labels: ["Question", "to speak"]
+        rel:
+          - ["speak", "sprechen", "to speak"]
+          - ["English", "Englisch", "Language"]
+
+      - q: "She speaks three languages."
+        a: "Sie spricht drei Sprachen."
+        labels: ["Simple Present", "to speak"]
+        rel:
+          - ["speaks", "spricht", "to speak - he/she speaks"]
+          - ["three", "drei", "Number"]
+          - ["languages", "Sprachen", "Noun"]
+
+      - q: "Can I talk to you for a moment?"
+        a: "Kann ich kurz mit dir reden?"
+        labels: ["Question", "to talk"]
+        rel:
+          - ["talk to", "reden mit", "Expression"]
+          - ["for a moment", "kurz/einen Moment", "Time expression"]
+
+      - q: "We need to talk about this."
+        a: "Wir müssen darüber reden."
+        labels: ["to talk", "Expression"]
+        rel:
+          - ["talk about", "reden über", "Expression"]
+          - ["need to", "müssen", "Necessity"]
+
+      - q: "He speaks too quietly."
+        a: "Er spricht zu leise."
+        labels: ["to speak"]
+        rel:
+          - ["speaks", "spricht", "to speak"]
+          - ["too", "zu", "Adverb"]
+          - ["quietly", "leise", "Adverb"]
+
+      - q: "They talk on the phone every day."
+        a: "Sie telefonieren jeden Tag."
+        labels: ["to talk"]
+        rel:
+          - ["talk on the phone", "telefonieren", "Expression"]
+          - ["every day", "jeden Tag", "Time expression"]
+
+      - type: input
+        q: "Translate: Do you speak English?"
+        a: "Do you speak English?"
+        labels: ["Question", "to speak"]
