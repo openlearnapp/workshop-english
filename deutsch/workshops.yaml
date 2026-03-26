@@ -6,3 +6,4 @@ workshops:
     color: "220 45% 93%"
     primaryColor: "220 75% 45%"
     image: "englisch/thumbnail.svg"
+    labels: ["Language"]
