@@ -1,9 +1,0 @@
-workshops:
-  - folder: english-learning
-    code: en-US
-    title: Learn English
-    description: 10 lessons on the 30 most important English verbs and their conjugations
-    color: "220 45% 93%"
-    primaryColor: "220 75% 45%"
-    image: "english-learning/thumbnail.svg"
-    labels: ["Language"]
